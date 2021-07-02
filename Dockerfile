@@ -1,4 +1,5 @@
 FROM bitnami/minideb:buster
+#FROM cm2network/steamcmd:root
 
 RUN apt-get update -qq \
   && apt-get install -y --no-install-recommends \
@@ -7,7 +8,7 @@ RUN apt-get update -qq \
   ca-certificates \
   && rm -rf /var/lib/apt/lists/*
 
-RUN useradd -m steam
+#RUN useradd -m steam
 WORKDIR /home/steam
 USER steam
 
@@ -15,10 +16,11 @@ USER steam
 RUN wget -nv https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz && \
     tar -xvzf steamcmd_linux.tar.gz
 
-#RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 90 validate +quit
-RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 70 validate +quit || :
+#RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 90  +quit
+RUN /home/steam/steamcmd.sh +login era_hellwolf@hotmail.com +force_install_dir /home/steam/cs16 +app_update 70 validate +quit || :
 RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 10 validate +quit || :
-RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 90 validate +quit
+RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 90  +quit
+
 
 RUN mkdir -p ~/.steam && ln -s ~/linux32 ~/.steam/sdk32
 
