@@ -8,7 +8,7 @@ RUN apt-get update -qq \
   ca-certificates \
   && rm -rf /var/lib/apt/lists/*
 
-#RUN useradd -m steam
+RUN useradd -m steam
 WORKDIR /home/steam
 USER steam
 
