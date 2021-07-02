@@ -17,7 +17,7 @@ RUN wget -nv https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar
     tar -xvzf steamcmd_linux.tar.gz
 
 #RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 90  +quit
-RUN /home/steam/steamcmd.sh +login era_hellwolf@hotmail.com +force_install_dir /home/steam/cs16 +app_update 70 validate +quit || :
+RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 70 validate +quit || :
 RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 10 validate +quit || :
 RUN /home/steam/steamcmd.sh +login anonymous +force_install_dir /home/steam/cs16 +app_update 90  +quit
 
