@@ -5,7 +5,7 @@ set -e
 
 RCON_PASS="$1"
 ADMIN="$2"
-CNAME="cs1.6"
+CNAME="cs16"
 
 RED='\033[0;31m'
 NC='\033[0m'
@@ -44,14 +44,14 @@ fi
 
 sed -i "s/rcon_password \"admin\"/rcon_password \"${RCON_PASS}\"/g" server.cfg
 
-docker pull coquinone/counterstrike-1.6:latest && docker stop ${CNAME} && docker rm ${CNAME}
+docker pull coquinone/counterstrike-1.6:jump && docker stop ${CNAME} && docker rm ${CNAME}
 
 if [[ -f csstats.dat ]]
 then
     printf "1"
-    docker run -d -p 27015:27015 -p 27015:27015/udp --name ${CNAME} --network host -v $(pwd)/users.ini:/home/steam/cs16/cstrike/addons/amxmodx/configs/users.ini -v $(pwd)/server.cfg:/home/steam/cs16/cstrike/server.cfg -v $(pwd)/csstats.dat:/home/steam/cs16/cstrike/addons/amxmodx/data/csstats.dat coquinone/counterstrike-1.6:latest
+    docker run -d  --name ${CNAME} --network host -v $(pwd)/users.ini:/home/steam/cs16/cstrike/addons/amxmodx/configs/users.ini -v $(pwd)/server.cfg:/home/steam/cs16/cstrike/server.cfg -v $(pwd)/csstats.dat:/home/steam/cs16/cstrike/addons/amxmodx/data/csstats.dat coquinone/counterstrike-1.6:latest
 else
     printf "2"
-    docker run -d -p 27015:27015 -p 27015:27015/udp --name ${CNAME} --network host -v $(pwd)/users.ini:/home/steam/cs16/cstrike/addons/amxmodx/configs/users.ini -v $(pwd)/server.cfg:/home/steam/cs16/cstrike/server.cfg coquinone/counterstrike-1.6:latest
+    docker run -d  --name ${CNAME} --network host -v $(pwd)/users.ini:/home/steam/cs16/cstrike/addons/amxmodx/configs/users.ini -v $(pwd)/server.cfg:/home/steam/cs16/cstrike/server.cfg coquinone/counterstrike-1.6:latest
 fi
 
