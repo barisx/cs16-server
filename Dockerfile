@@ -56,4 +56,4 @@ COPY --chown=steam:steam AimMapCs1.6/cstrike cstrike/
 EXPOSE 27015/tcp
 EXPOSE 27015/udp
 
-CMD ./hlds_run  -game cstrike -strictportbind -autoupdate -ip 0.0.0.0 +sv_lan 0 +map aim_map -maxplayers 32 +log on +mp_logecho 1
+CMD ./hlds_run  -game cstrike -strictportbind -autoupdate -ip 168.138.11.215 +sv_lan 0 +map aim_map -maxplayers 32 +log on +mp_logecho 1
