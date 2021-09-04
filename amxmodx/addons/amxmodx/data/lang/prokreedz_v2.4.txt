@@ -1,0 +1,895 @@
+[en]
+PKU_WEAPON_SPEED = Maxspeed of this Weapon is %i
+PKU_CMD_RESET = !tTime and Checkpoints are reset
+PKU_SCOUT_OFF = !t'!nScout!t' is current disabled...
+PKU_PRO_OFF = !tRankList '!nPro15!t' was disabled...
+PKU_SCOUT_HAS = !tYou already have a '!nScout!t'...
+PKU_USP_HAS = !tYou already have a '!nUsp!t'...
+PKU_PAUSE_OFF = !tPause is current disabled...
+PKU_PAUSE_USE = !tYou first have to start the Timer to use this Command...
+PKU_SPEC_OFF = !tSpectator is current disabled...
+PKU_CP_OFF = !tCheckpoints are current disabled...
+PKU_CP_FALL = !tYou can not create a Checkpoint in the Air...
+PKU_CP_CREATE = !tPosition saved...
+PKU_CP_TO_MUCH = !tYou use to much Checkpoints...
+PKU_CP_NULL = !tFirst you have to create a Checkpoint...
+PKU_CP_BUSY = !tSomebody is too close to your Checkpoint...
+PKU_CP_SOMEONE = !tSomebody is too close to your pre last Checkpoint
+PKU_NOCLIP_GIVE = !tAdmin %s %s '!nNoclip!t'
+PKU_NOCLIP_REMOVE = !tType '!n/noclip!t' to remove Noclip 
+PKU_GRAVITY_ALL = !tAdmin %s has set your Gravity to %d 
+PKU_GRAVITY_TARGET = !tAdmin %s has set your Gravity to %d 
+PKU_NOCLIP_ON = !tYou can't start the Timer as long you have Noclip
+PKU_START_AGAIN = !tTo get on '!nPro15!t' you can't use '!nScout!t' 
+PKU_TIMER_STARTED = !tTimer Started
+PKU_FINISH = !n%s !tfinished the map in!n %02d:%s%.2f !the used!g [!n %d !tCheckpoint%s !g] [!n %d !tGoCheck%s !g]
+PKU_TIMER = Time: %02d:%s%.1f | Started | Checkpoints: %d | GoCheck: %d
+PKU_PAUSE = | Time: Stopped | Status: Pause | ^n say /unpause
+PKU_SPECTATOR = | Status: Spectator | ^n say /unspec
+PKU_SPECTATOR_START = | Time: Stopped | Status: Spectator | ^n say /unspec
+PKU_KILL_OFF = The Command Kill Is current disabled.
+PKU_CHEAT_DETECTED = !tDetected!n %s !t- Time stopped
+PKU_HELP = !tFor all Commands type!n '/help' !tin Chat.
+PKU_PM_SEMI_OFF = \r1. Semiclip Disabledt\w
+PKU_PM_SEMI_ON = \r1. Semiclip Enabled\w
+PKU_PM_BHOP_OFF = \r2. Bhop Disabled\w
+PKU_PM_BHOP = \d2. Bhop\w  
+PKU_PM_BHOP_NOSLOW = \w2. Bhop - No Slowdown\w 
+PKU_PM_BHOP_AUTO = \w2. Bhop - Autojump\w  
+PKU_PM_SHOWTIMER_OFF = \d3. Show Timer\w
+PKU_PM_SHOWTIMER_ON = \w3. Show Timer\w
+PKU_PM_SCOUT_OFF = \r4. Scout Disabled\w    
+PKU_PM_SCOUT_ON = \w4. Scout\w    
+PKU_PM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Playermenu^n^n%s^n%s^n%s^n%s^n5. Usp^n6. Start^n7. Reset^n^n0. close     
+PKU_AM_CP_OFF = \r1. Checkpoints\w
+PKU_AM_CP_ON = \w1. Checkpoints\w
+PKU_AM_GODMODE_OFF = \r2. Godmode\w
+PKU_AM_GODMODE_ON = \w2. Godmode\w
+PKU_AM_AUTOJOIN_OFF = \r3. Autojoin\w
+PKU_AM_AUTOJOIN_ON = \w3. Autojoin\w
+PKU_AM_SCOUT_OFF = \r4. Scout\w
+PKU_AM_SCOUT_ON = \w4. Scout\w
+PKU_AM_GLOW_OFF = \r5. Adminglow\w
+PKU_AM_GLOW_ON = \w5. Adminglow\w     
+PKU_AM_SEMI_OFF = \r6. Semiclip\w 
+PKU_AM_SEMI_ON = \w6. Semiclip\w
+PKU_AM_BHOP = \r7. Bhop\w
+PKU_AM_BHOP_NOSLOW = \w7. Bhop - No Slowdown\w
+PKU_AM_BHOP_AUTO = \w7. Bhop - Autojump\w
+PKU_AM_TRANS_OFF = \r8. Transparency\w
+PKU_AM_TRANS_ON = \w8. Transparency\w
+PKU_AM_CHEATD_OFF = \r9. Cheatdetect\w
+PKU_AM_CHEATD_ON = \w9. Cheatdetect\w
+PKU_AM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Adminmenu^n^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n^n0. close
+PKU_CP_ENABLED = !tCheckpoints are enabled now
+PKU_CP_INFO = !tType !n'/checkpoint' !tto create a Checkpoint
+PKU_CP_GO_INFO = !tType !n'/gocheck' !tto be teleported to your last Checkpoint
+PKU_CP_DISABLED = !tCheckpoints are disabled now
+PKU_GODMODE_ENABLED = !tGodmode is enabled now
+PKU_GODMODE_DISABLED = !tGodmode is disabled now
+PKU_AUTOJOIN_ENABLED = !tAutojoin is enabled now
+PKU_AUTOJOIN_DISABLED = !tAutojoin is disabled now
+PKU_SCOUT_ENABLED = !tScout is enabled now
+PKU_SCOUT_DISABLED = !tScout is disabled now
+PKU_ADMINGLOW_ENABLED = !tAdminglow is enabled now
+PKU_ADMINGLOW_DISABLED = !tAdminglow is disabled now
+PKU_SEMICLIP_ENABLED = !tSemiclip is enabled now
+PKU_SEMICLIP_DISABLED = !tSemiclip is disabled now
+PKU_BHOP_NOSLOW_DOWN = !tBhop (No Slowdown) is enabled now
+PKU_BHOP_AUTOMATIC = !tBhop (Autojump) is enabled now
+PKU_BHOP_DISABLED = !tBhop is disabled now
+PKU_TRANSPARENCY_ENABLED = !tSemiclip Transparency is enabled now
+PKU_TRANSPARENCY_DISABLED = !tSemiclip Transparency is disabled now
+PKU_CHEATD_ENABLED = !tCheatdetection is enabled now
+PKU_CHEATD_DISABLED = !tCheatdetection is disabled now
+PKU_TOP15_MOTD = <tr align=center bgcolor=#52697B><th width=5%%>#<th width=30%% align=left>Name<th width=25%%>Time<th width=20%%>Checkpoints<th width=20%%>GoChecks
+PKU_TOP15_NPBT = !n%s !gimproved his time!n %02d:%s%.4f  
+PKU_TOP15_FAIL = !n%s !gfail his best time by!n %02d:%s%.4f 
+PKU_NUB15_LEET = Congratulations !n%s !gis the new Leet in Nub15
+PKU_NUB15_RANK = !n%s !gNew rank in Nub15 is !n[%i]
+PKU_PRO15_LEET = Congratulations !n%s !gis the new Leet in Pro15
+PKU_PRO15_RANK = !n%s !gNew rank in Pro15 is !n[%i]
+PKU_NOCLIP_AT_ALL = gives to erveryone
+PKU_NOCLIP_TAKE_ALL = remove from everyone
+PKU_NOCLIP_AT_TARGET = gives you
+PKU_NOCLIP_TAKE_TARGET = remove from you
+PKU_IMOTD_HELP_TITEL = ProKreedz v2.4 Commands
+PKU_IMOTD_HELP_MENU = <tr><td class=h1>* Shows Player Menu:
+PKU_IMOTD_SCOUT = <tr><td class=h1>* Gives Player A Scout:
+PKU_IMOTD_USP = <tr><td class=h1>* Gives Player A Usp:
+PKU_IMOTD_TOP15 = <tr><td class=h1>* Shows The Tops:
+PKU_IMOTD_CHECKPOINT = <tr><td class=h1>* Create A Checkpoint:
+PKU_IMOTD_GOCHECK = <tr><td class=h1>* Go To Last Checkpoint:
+PKU_IMOTD_STUCK = <tr><td class=h1>* If Player Stuck In Wall:
+PKU_IMOTD_START = <tr><td class=h1>* Reset Time, Checkpoints and Telport Player To The Start:
+PKU_IMOTD_RESET = <tr><td class=h1>* Reset Time And Checkpoints:
+PKU_IMOTD_PAUSE = <tr><td class=h1>* Time Will Be Stopped:
+PKU_IMOTD_SPEC = <tr><td class=h1>* Player Join Spec And Time Stopped:
+PKU_IMOTD_SHOWKEYS = <tr><td class=h1>* Show Player Own Keys:
+PKU_IMOTD_WEAPONS = <tr><td class=h1>* All Weapons:
+PKU_GRAB_TARGET =  !tYou grabbed %s.
+PKU_GRAB_ALREADY = !tThis Player is already grabbed.
+PKU_PRIZE_HOOK = !tYou receive a reward !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_AT_ALL = !tAdmin %s gives to everyone !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_ALL = !tAdmin %s removes Hook from everyone.
+PKU_HOOK_AT_TARGET = !tAdmin %s gives you !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_TARGET = !tAdmin %s removes the Hook from you.
+PKU_JET_PRIZE_CG = !tBravo you finished the Map without !nCheckpoints!t !
+PKU_JET_PRIZE = !tYou receive a second reward !n[Jetpack]: !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_AT_ALL = !tAdmin %s gives to everyone !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_ALL = !tAdmin %s removes Jetpack from everyone.
+PKU_JET_AT_TARGET = !tAdmin %s gives you !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_TARGET = !tAdmin %s removes the Jetpack from you.
+PKU_SET_START = Start position has been set.
+PKU_DEL_START = Start position deleted.
+PKU_BE_ALIVE = You must be alive to use this command.
+PKU_BEAT_MAP_A = Beat the Map to get a free Hook.
+PKU_BEAT_MAP_B = Beat the Map without Checkpoints to get a free JetPack.
+
+[de]
+PKU_WEAPON_SPEED = Maximal Geschwindigkeit Dieser Waffe Ist %i
+PKU_CMD_RESET = !tZeit Und Checkpoints Erfolgreich Zurueckgesetzt
+PKU_SCOUT_OFF = !t'!nScout!t' Ist Vom Server Aus Deaktiviert...
+PKU_PRO_OFF = !tDie RangListe '!nPro15!t' Wurde Deaktiviert...
+PKU_SCOUT_HAS = !tDu Besitzt Schon Eine '!nScout!t'...
+PKU_USP_HAS = !tDu Besitzt Schon Eine '!nUsp!t'...
+PKU_PAUSE_OFF = !tPause Ist Momentan Vom Server Aus Deaktiviert...
+PKU_PAUSE_USE = !tUm Diesen Befehl Zu Nutzen, Musst Du Erst Starten...
+PKU_SPEC_OFF = !tSpectator Ist Momentan Vom Server Aus Deaktiviert...
+PKU_CP_OFF = !tCheckpoints Sind Momentan Deaktiviert.
+PKU_CP_FALL = !tDu Kannst Im Fallen Keinen Checkpoint Erstellen
+PKU_CP_CREATE = !tPosition Gespeichert...
+PKU_CP_TO_MUCH = !tDu Hast Zuviele Checkpoints Gebraucht...
+PKU_CP_NULL = !tDu Musst Erst Ein Checkpoint Erstellen.
+PKU_CP_BUSY = !tJemand Befindet Sich Zu Dicht An Deinem Checkpoint
+PKU_CP_SOMEONE = !tJemand Befindet Sich Zu Dicht An Deinem Checkpoint
+PKU_NOCLIP_GIVE = !tAdmin %s %s '!nNoclip!t'
+PKU_NOCLIP_REMOVE = !tSchreibe '!n/noclip!t' Um Noclip Zu Entfernen
+PKU_GRAVITY_ALL = !tAdmin %s Hat Allen Spielern Gravity Auf %d Gesetzt
+PKU_GRAVITY_TARGET = !tAdmin %s Hat Deine Gravity Auf %d Gesetzt
+PKU_NOCLIP_ON = !tDu Kannst Den Timer Wegen Noclip Nicht Starten
+PKU_START_AGAIN = !tUm In Die Rangliste '!nPro15!t' Zu Kommen Kannst Du Keine '!nScout!t' Benutzen
+PKU_TIMER_STARTED = !tZeit Gestartet
+PKU_FINISH = !n%s !tEreicht Das Ziel In!n %02d:%s%.2f !tmit !g[!n %d !tCheckpoint%s !g] [!n %d !tGoCheck%s !g]
+PKU_TIMER = Zeit: %02d:%s%.1f | Gestartet | Checkpoints: %d | GoCheck: %d
+PKU_PAUSE = | Zeit: Gestoppt | Status: Pause | ^n say /unpause
+PKU_SPECTATOR = | Status: Spectator | ^n say /unspec
+PKU_SPECTATOR_START = | Zeit: Gestoppt | Status: Spectator | ^n say /unspec
+PKU_KILL_OFF = Der Befehl Kill Ist Momentan Deaktiviert.
+PKU_CHEAT_DETECTED = !tEntdeckte!n %s !t- Zeit Angehalten
+PKU_HELP = !tUm Alle Befehle Zu Sehen Schreibe!n '/help' !tIm Chat.
+PKU_PM_SEMI_OFF = \r1. Semiclip Vom Server Aus Deaktiviert\w
+PKU_PM_SEMI_ON = \r1. Semiclip Vom Server Aus Aktiviert\w
+PKU_PM_BHOP_OFF = \r2. Bhop Vom Server Aus Deaktiviert\w
+PKU_PM_BHOP = \d2. Bhop\w  
+PKU_PM_BHOP_NOSLOW = \w2. Bhop - Ohne Abbremsen\w 
+PKU_PM_BHOP_AUTO = \w2. Bhop - Automatisch\w  
+PKU_PM_SHOWTIMER_OFF = \d3. Zeige Timer\w
+PKU_PM_SHOWTIMER_ON = \w3. Zeige Timer\w
+PKU_PM_SCOUT_OFF = \r4. Scout Ist Deaktiviert\w    
+PKU_PM_SCOUT_ON = \w4. Scout\w    
+PKU_PM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Spielermenue^n^n%s^n%s^n%s^n%s^n5. Usp^n6. Start^n7. Reset^n^n0. Schliessen     
+PKU_AM_CP_OFF = \r1. Checkpoints\w
+PKU_AM_CP_ON = \w1. Checkpoints\w
+PKU_AM_GODMODE_OFF = \r2. Godmode\w
+PKU_AM_GODMODE_ON = \w2. Godmode\w
+PKU_AM_AUTOJOIN_OFF = \r3. Autojoin\w
+PKU_AM_AUTOJOIN_ON = \w3. Autojoin\w
+PKU_AM_SCOUT_OFF = \r4. Scout\w
+PKU_AM_SCOUT_ON = \w4. Scout\w
+PKU_AM_GLOW_OFF = \r5. Adminleuchten\w
+PKU_AM_GLOW_ON = \w5. Adminleuchten\w     
+PKU_AM_SEMI_OFF = \r6. Semiclip\w 
+PKU_AM_SEMI_ON = \w6. Semiclip\w
+PKU_AM_BHOP = \r7. Bhop\w
+PKU_AM_BHOP_NOSLOW = \w7. Bhop - Ohne Abbremsen\w
+PKU_AM_BHOP_AUTO = \w7. Bhop - Automatisch\w
+PKU_AM_TRANS_OFF = \r8. Transparenz\w
+PKU_AM_TRANS_ON = \w8. Transparenz\w
+PKU_AM_CHEATD_OFF = \r9. Cheaterkennung\w
+PKU_AM_CHEATD_ON = \w9. Cheaterkennung\w
+PKU_AM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Adminmenue^n^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n^n0. Schliessen
+PKU_CP_ENABLED = !tCheckpoints Sind Nun Aktiviert
+PKU_CP_INFO = !tSchreibe!n '/checkpoint' !tUm Ein Checkpoint Zu Erstellen
+PKU_CP_GO_INFO = !tSchreibe!n '/gocheck' !tUm Zu Deinem Letzen Checkpoint Zurueckzukehren
+PKU_CP_DISABLED = !tCheckpoints Sind Nun Deaktiviert
+PKU_GODMODE_ENABLED = !tGodmode Ist Nun Aktiviert
+PKU_GODMODE_DISABLED = !tGodmode Ist Nun Deaktiviert
+PKU_AUTOJOIN_ENABLED = !tAutojoin Ist Nun Aktiviert
+PKU_AUTOJOIN_DISABLED = !tAutojoin Ist Nun Deaktiviert
+PKU_SCOUT_ENABLED = !tScout Ist Nun Aktiviert
+PKU_SCOUT_DISABLED = !tScout Ist Nun Deaktiviert
+PKU_ADMINGLOW_ENABLED = !tAdmins Leuchten Ist Nun Aktiviert
+PKU_ADMINGLOW_DISABLED = !tAdmins Leuchten Ist Nun Deaktiviert
+PKU_SEMICLIP_ENABLED = !tSemiclip Ist Nun Aktiviert
+PKU_SEMICLIP_DISABLED = !tSemiclip Ist Nun Deaktiviert
+PKU_BHOP_NOSLOW_DOWN = !tBhop (Ohne Abbremsen) Ist Nun Aktiviert
+PKU_BHOP_AUTOMATIC = !tBhop (Automatisch) Ist Nun Aktiviert
+PKU_BHOP_DISABLED = !tBhop Ist Nun Deaktiviert
+PKU_TRANSPARENCY_ENABLED = !tTransparenter Semiclip Ist Nun Aktiviert
+PKU_TRANSPARENCY_DISABLED = !tTransparenter Semiclip Ist Nun Deaktiviert
+PKU_CHEATD_ENABLED = !tCheaterkennung Ist Nun Aktiviert
+PKU_CHEATD_DISABLED = !tCheaterkennung Ist Nun Deaktiviert
+PKU_TOP15_MOTD = <tr align=center bgcolor=#52697B><th width=5%%>#<th width=30%% align=left>Name<th width=25%%>Zeit<th width=20%%>Checkpoints<th width=20%%>GoChecks
+PKU_TOP15_NPBT = !n%s !gverbessert seine Zeit!n %02d:%s%.4f  
+PKU_TOP15_FAIL = !n%s !gschaft es nicht seine Zeit zu verbessern!n %02d:%s%.4f 
+PKU_NUB15_LEET = Gratulation !n%s !gist der neue Leet in Nub15
+PKU_NUB15_RANK = !n%s !gneuer Rank in Nub15 ist !n[%i]
+PKU_PRO15_LEET = Gratulation !n%s !gist der neue Leet in Pro15
+PKU_PRO15_RANK = !n%s !gneuer Rank in Pro15 ist !n[%i]
+PKU_NOCLIP_AT_ALL = Gab Allen
+PKU_NOCLIP_TAKE_ALL = Nahm Allen
+PKU_NOCLIP_AT_TARGET = Gab Dir
+PKU_NOCLIP_TAKE_TARGET = Nahm Dir
+PKU_IMOTD_HELP_TITEL = ProKreedz v2.4 Befehle
+PKU_IMOTD_HELP_MENU = <tr><td class=h1>* Zeigt Spieler Menü:
+PKU_IMOTD_SCOUT = <tr><td class=h1>* Gibt Spieler Eine Scout:
+PKU_IMOTD_USP = <tr><td class=h1>* Gibt Spieler Eine Usp:
+PKU_IMOTD_TOP15 = <tr><td class=h1>* Zeigt Die Top15 Liste:
+PKU_IMOTD_CHECKPOINT = <tr><td class=h1>* Um Ein Checkpoint Zu Erstellen:
+PKU_IMOTD_GOCHECK = <tr><td class=h1>* Um Zu Deinem Letzten Checkpoint Zurückzukehren:
+PKU_IMOTD_STUCK = <tr><td class=h1>* Bleibt Der Spieler Stecken:
+PKU_IMOTD_START = <tr><td class=h1>* Setzt Zeit Und Checkpoints Zurück Und Teleportiert Spieler Zum Start:
+PKU_IMOTD_RESET = <tr><td class=h1>* Setzt Zeit Und Checkpoints Zurück:
+PKU_IMOTD_PAUSE = <tr><td class=h1>* Zeit Wird Angehalten:
+PKU_IMOTD_SPEC = <tr><td class=h1>* Spieler Wird Spectator Und Zeit Wird Angehalten:
+PKU_IMOTD_SHOWKEYS = <tr><td class=h1>* Zeigt Spieler Eigene Tasten:
+PKU_IMOTD_WEAPONS = <tr><td class=h1>* Alle Waffen:
+PKU_GRAB_TARGET =  !tDu grabst %s.
+PKU_GRAB_ALREADY = !tDieser Spieler wird schon gegrabt.
+PKU_PRIZE_HOOK = !tDu Hast Ein Preis Bekommen.!n [Hook]: !g[Nutzung]: !nbind 'Taste' '+hook'
+PKU_HOOK_AT_ALL = !tAdmin %s Hat Allen !n[Hook] !tGegeben. !g[Nutzung]: !nbind 'Taste' '+hook'
+PKU_HOOK_TAKE_ALL = !tAdmin %s Hat Allen Die Faehigkeit Hook Zu Nutzten Genommen.
+PKU_HOOK_AT_TARGET = !tAdmin %s Hat Dir !n[Hook] !tGegeben. !g[Nutzung]: !nbind 'Taste' '+hook'
+PKU_HOOK_TAKE_TARGET = !tAdmin %s Hat Dir Die Faehigkeit Hook Zu Nutzten Genommen.
+PKU_JET_PRIZE_CG = !tBravo Du Hast Die Map Ohne !nCheckpoints !tGeschaft !
+PKU_JET_PRIZE = !tDu Bekommst Ein Zweiten Preis!n [Jetpack]: !g[Nutzung]: !nbind 'Taste' '+jet'
+PKU_JET_AT_ALL = !tAdmin %s Hat Allen !n[Jetpack] !tGegeben. !g[Nutzung]: !nbind 'Taste' '+jet'
+PKU_JET_TAKE_ALL = !tAdmin %s Hat Allen Die Faehigkeit Jetpack Zu Nutzten Genommen.
+PKU_JET_AT_TARGET = !tAdmin %s Hat Dir !n[Jetpack] !tGegeben. !g[Nutzung]: !nbind 'Taste' '+jet'
+PKU_JET_TAKE_TARGET = !tAdmin %s Hat Dir Die Faehigkeit Jetpack Zu Nutzten Genommen.
+PKU_SET_START = Startposition wurde erstellt.
+PKU_DEL_START = Startposition geloescht.
+PKU_BE_ALIVE = Du musst lebendig sein um diesen Befehl zu nutzen.
+PKU_BEAT_MAP_A = Bezwinge Die Map Und Erhalte Hook Als Preis.
+PKU_BEAT_MAP_B = Bezwinge Die Map Ohne Checkpoints Und Erhalte Jetpack Als Preis.
+
+[sr]
+PKU_WEAPON_SPEED = Maximalna brzina ovog oruzja je %i
+PKU_CMD_RESET = !tVreme i Checkpoint-ovi su resetovani
+PKU_SCOUT_OFF = !t'!nScout!t' je trenutno onemogucena...
+PKU_PRO_OFF = !tRankLista '!nPro15!t' je iskljucena...
+PKU_SCOUT_HAS = !tVec imas '!nScout!t'...
+PKU_USP_HAS = !tVec imas '!nUsp!t'...
+PKU_PAUSE_OFF = !tPauza je trenutno onemogucena...
+PKU_PAUSE_USE = !tPrvo moras da pokrenes tajmer da bi koristio ovu komandu...
+PKU_SPEC_OFF = !tSpectator je trenutno onemogucen...
+PKU_CP_OFF = !tCheckpointsi su trenutno onemoguceni...
+PKU_CP_FALL = !tNemozes da napravis Checkpoint u vazduhu...
+PKU_CP_CREATE = !tPozicija sacuvana...
+PKU_CP_TO_MUCH = !tKoristio si previse Checkpointova...
+PKU_CP_NULL = !tPrvo moras da napravis Checkpoint...
+PKU_CP_BUSY = !tNeko je preblizu tvog Checkpointa...
+PKU_CP_SOMEONE = !tNeko je preblizu tvojm predposlednjem Checkpointu
+PKU_NOCLIP_GIVE = !tAdmin %s %s '!nNoclip!t'
+PKU_NOCLIP_REMOVE = !tUkucaj '!n/noclip!t' da izbrises Noclip 
+PKU_GRAVITY_ALL = !tAdmin %s je postavio tvoju Graviraciju na %d 
+PKU_GRAVITY_TARGET = !tAdmin %s je postavio tvoju Gravitaciju na %d 
+PKU_NOCLIP_ON = !tNe mozes da pokrenese tajmer sve dok imas Noclip
+PKU_START_AGAIN = !tDa bi uso na '!nPro15!t' nemozes da koristis '!nScout!t' 
+PKU_TIMER_STARTED = !tTajmer pokrenut
+PKU_FINISH = !n%s !tZavrsena mapa za!n %02d:%s%.2f !tsa !g[!n %d !tCheckpoint%s !g] [!n %d !tGoCheck%s !g]
+PKU_TIMER = Vreme: %02d:%s%.1f | Poceto | Checkpoints: %d | GoCheck: %d
+PKU_PAUSE = | Vreme: Zaustavljeno | Status: Pauza | ^n reci /unpause
+PKU_SPECTATOR = | Status: Spectator | ^n reci /unspec
+PKU_SPECTATOR_START = | Vreme: Zaustavljenu | Status: Spectator | ^n reci /unspec
+PKU_KILL_OFF = Komanda 'Kill' je trenutno iskljucena.
+PKU_CHEAT_DETECTED = !tDetektovano !n %s !t - Vreme zaustavljeno
+PKU_HELP = !tZa sve komande ukucaj !n '/help' !tu cetu.
+PKU_PM_SEMI_OFF = \r1. Semiclip Iskljucent\w
+PKU_PM_SEMI_ON = \r1. Semiclip Ukljucen\w
+PKU_PM_BHOP_OFF = \r2. Bhop Iskljucen\w
+PKU_PM_BHOP = \d2. Bhop\w  
+PKU_PM_BHOP_NOSLOW = \w2. Bhop - Nema Usporavanja\w 
+PKU_PM_BHOP_AUTO = \w2. Bhop - Auto skok\w  
+PKU_PM_SHOWTIMER_OFF = \d3. Prikazi Tajmer\w
+PKU_PM_SHOWTIMER_ON = \w3. Prikazi Tajmer\w
+PKU_PM_SCOUT_OFF = \r4. Scout Onemogucen\w    
+PKU_PM_SCOUT_ON = \w4. Scout\w    
+PKU_PM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Igracev meni^n^n%s^n%s^n%s^n%s^n5. Usp^n6. Pokreni^n7. Resetuj^n^n0. zatvori     
+PKU_AM_CP_OFF = \r1. Checkpointovi\w
+PKU_AM_CP_ON = \w1. Checkpointovi\w
+PKU_AM_GODMODE_OFF = \r2. Godmode\w
+PKU_AM_GODMODE_ON = \w2. Godmode\w
+PKU_AM_AUTOJOIN_OFF = \r3. Auto prikljucivanje\w
+PKU_AM_AUTOJOIN_ON = \w3. Auto prikljucivanje\w
+PKU_AM_SCOUT_OFF = \r4. Scout\w
+PKU_AM_SCOUT_ON = \w4. Scout\w
+PKU_AM_GLOW_OFF = \r5. Admin sija\w
+PKU_AM_GLOW_ON = \w5. Admin sija\w     
+PKU_AM_SEMI_OFF = \r6. Semiclip\w 
+PKU_AM_SEMI_ON = \w6. Semiclip\w
+PKU_AM_BHOP = \r7. Bhop\w
+PKU_AM_BHOP_NOSLOW = \w7. Bhop - Nema usporavanja\w
+PKU_AM_BHOP_AUTO = \w7. Bhop - Auto skok\w
+PKU_AM_TRANS_OFF = \r8. Providnost\w
+PKU_AM_TRANS_ON = \w8. Providnost\w
+PKU_AM_CHEATD_OFF = \r9. Cit detektovan\w
+PKU_AM_CHEATD_ON = \w9. Cit detektovan\w
+PKU_AM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Admin meni^n^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n^n0. zatvori
+PKU_CP_ENABLED = !tCheckpointovi su ukljuceni sada
+PKU_CP_INFO = !tUkucaj !n'/checkpoint' !tda napravis Checkpoint
+PKU_CP_GO_INFO = !tUkucaj !n'/gocheck' !tda se teleportujes na tvoj poslednji Checkpoint
+PKU_CP_DISABLED = !tCheckpointovi su sada iskljuceni
+PKU_GODMODE_ENABLED = !tGodmode je sada ukljucen
+PKU_GODMODE_DISABLED = !tGodmode je sada iskljucen
+PKU_AUTOJOIN_ENABLED = !tAuto prikljucivanje je sada ukljuceno
+PKU_AUTOJOIN_DISABLED = !tAuto prikljucivanje je sada iskljuceno
+PKU_SCOUT_ENABLED = !tScout je sada omogucen
+PKU_SCOUT_DISABLED = !tScout je sada onemogucen
+PKU_ADMINGLOW_ENABLED = !tAdmin glow je sada onemogucen
+PKU_ADMINGLOW_DISABLED = !tAdmin glow je sada onemogucen
+PKU_SEMICLIP_ENABLED = !tSemiclip je sada omogucen
+PKU_SEMICLIP_DISABLED = !tSemiclip je sada onemogucen
+PKU_BHOP_NOSLOW_DOWN = !tBhop (Nema Usporavanja) je sada omogucen
+PKU_BHOP_AUTOMATIC = !tBhop (Autoskakanje) je sada omoguceno
+PKU_BHOP_DISABLED = !tBhop je sada onemogucen
+PKU_TRANSPARENCY_ENABLED = !tSemiclip Providnost je sada omogucena
+PKU_TRANSPARENCY_DISABLED = !tSemiclip Providnost je sada onemogucena
+PKU_CHEATD_ENABLED = !tCheat detekcija je sada omogucena
+PKU_CHEATD_DISABLED = !tCheat detekcija je sada onemogucena
+PKU_TOP15_MOTD = <tr align=center bgcolor=#52697B><th width=5%%>#<th width=30%% align=left>Ime<th width=25%%>Vreme<th width=20%%>Checkpoints<th width=20%%>GoChecks
+PKU_TOP15_NPBT = !n%s !gje uspio poboljisati svoj Vreme!n %02d:%s%.4f  
+PKU_TOP15_FAIL = !n%s !gnije uspio poboljisati svoj Vreme!n %02d:%s%.4f 
+PKU_NUB15_LEET = Cestitke !n%s !gje novi Leet u Nub15
+PKU_NUB15_RANK = !n%s !gnovi rank u Nub15 je !n[!g%i]
+PKU_PRO15_LEET = Cestitke !n%s !gje novi Leet u Pro15
+PKU_PRO15_RANK = !n%s !gnovi rank u Pro15 je !n[%i]
+PKU_NOCLIP_AT_ALL = daje svakome
+PKU_NOCLIP_TAKE_ALL = brise svakomer
+PKU_NOCLIP_AT_TARGET = daje tebi
+PKU_NOCLIP_TAKE_TARGET = brise od tebe
+PKU_IMOTD_HELP_TITEL = ProKreedz v2.4 Komande
+PKU_IMOTD_HELP_MENU = <tr><td class=h1>* Prikazi Igracev Meni:
+PKU_IMOTD_SCOUT = <tr><td class=h1>* Daj igracu Scout:
+PKU_IMOTD_USP = <tr><td class=h1>* Daj igracu Usp:
+PKU_IMOTD_TOP15 = <tr><td class=h1>* Prikazi Najbolje:
+PKU_IMOTD_CHECKPOINT = <tr><td class=h1>* Napravi Checkpoint:
+PKU_IMOTD_GOCHECK = <tr><td class=h1>* Idi na poslednji Checkpoint:
+PKU_IMOTD_STUCK = <tr><td class=h1>* Ako se igrac zaglavi u zidu:
+PKU_IMOTD_START = <tr><td class=h1>* Resetuj vreme, Checkpointove i teleportuj igraca na pocetak:
+PKU_IMOTD_RESET = <tr><td class=h1>* Resetuj Vreme I Checkpointove:
+PKU_IMOTD_PAUSE = <tr><td class=h1>* Vreme ce biti zaustavljeno:
+PKU_IMOTD_SPEC = <tr><td class=h1>* Igrac se pridruzio Spec timu i vreme je zaustavljeno:
+PKU_IMOTD_SHOWKEYS = <tr><td class=h1>* Pokazuje Dugmad od Igraca:
+PKU_IMOTD_WEAPONS = <tr><td class=h1>* Sve Oruzije:
+PKU_GRAB_TARGET =  !tUhvatio si %s.
+PKU_GRAB_ALREADY = !tOvaj igrac je vec uhvacen.
+PKU_PRIZE_HOOK = !tDobijas nagradu !n[Hook]: !t- !g[Koriscenje]: !nbind 'dugme' '+hook'
+PKU_HOOK_AT_ALL = !tAdmin %s daje svima !n[Hook]: !t- !g[Koriscenje]: !nbind 'dugme' '+hook'
+PKU_HOOK_TAKE_ALL = !tAdmin %s brise Hook svima.
+PKU_HOOK_AT_TARGET = !tAdmin %s ti je dao !n[Hook]: !t- !g[Koriscenje]: !nbind 'dugme' '+hook'
+PKU_HOOK_TAKE_TARGET = !tAdmin %s ti je obrisao Hook.
+PKU_JET_PRIZE_CG = !tBravo zavrsio si mapu bez !nCheckpointova!t !
+PKU_JET_PRIZE = !tPrimio si drugu nagradu !n[Jetpack]: !t- !g[Koriscenje]: !nbind 'dugme' '+jet'
+PKU_JET_AT_ALL = !tAdmin %s je dao svima !n[Jetpack] !t- !g[Koriscenje]: !nbind 'dugme' '+jet'
+PKU_JET_TAKE_ALL = !tAdmin %s je obrisao  Jetpack svima.
+PKU_JET_AT_TARGET = !tAdmin %s ti je dao !n[Jetpack] !t- !g[Koriscenje]: !nbind 'dugme' '+jet'
+PKU_JET_TAKE_TARGET = !tAdmin %s ti je obrisao Jetpack.
+PKU_SET_START = Pocetna posizicija je naprvavljena.
+PKU_DEL_START = Pocetna pozicija je izbrisana.
+PKU_BE_ALIVE = Moras biti ziv da bih mogao izvrsit tu komandu.
+PKU_BEAT_MAP_A = Predji mapu da bi dobio besplatan Hook.
+PKU_BEAT_MAP_B = Predji mapu bez Checkpointova da bi dobio besplatan JetPack.
+
+[nl]
+PKU_WEAPON_SPEED = Maximum snelheid van dit wapen is %i
+PKU_CMD_RESET = !tTijd en checkpoints zijn hersteld
+PKU_SCOUT_OFF = !t'!nScout!t' is momenteel gedeactiveerd...
+PKU_PRO_OFF = !tRanklijst '!nPro15!t' is gedeactiveerd...
+PKU_SCOUT_HAS = !tJe hebt al een scout '!nScout!t'...
+PKU_USP_HAS = !tJe hebt al een usp '!nUsp!t'...
+PKU_PAUSE_OFF = !tPause is momenteel gedeactiveerd...
+PKU_PAUSE_USE = !tJe moet de timer starten om dit commando te kunnen gebruiken...
+PKU_SPEC_OFF = !tSpectator is momenteel gedeactiveerd...
+PKU_CP_OFF = !tCheckpoints zijn momenteel gedeactiveerd...
+PKU_CP_FALL = !tJe kan geen checkpoint maken in de lucht...
+PKU_CP_CREATE = !tPositie opgeslagen...
+PKU_CP_TO_MUCH = !tJe gebruikt teveel checkpoints...
+PKU_CP_NULL = !tje moet eerst een checkpoint maken...
+PKU_CP_BUSY = !tIemand is te dicht bij je checkpoint...
+PKU_CP_SOMEONE = !tIemand is te dicht mij je vorige checkpoint
+PKU_NOCLIP_GIVE = !tAdmin %s %s '!nNoclip!t'
+PKU_NOCLIP_REMOVE = !tTyp '!n/noclip!t' om Noclip af te zetten 
+PKU_GRAVITY_ALL = !tAdmin %s heeft je zwaartekracht op %d gezet 
+PKU_GRAVITY_TARGET = !tAdmin %s heeft je zwaartekracht op %d gezet 
+PKU_NOCLIP_ON = !tJe kan de timer niet starten zolang je noclip hebt
+PKU_START_AGAIN = !tOm in de '!nPro15!t' te komen mag je geen '!nScout!t' gebruiken 
+PKU_TIMER_STARTED = !tTimer gestart
+PKU_FINISH = !n%s !tbeeindingde de map in!n %02d:%s%.2f !tMin. !g[!n %d !tCheckpoint%s !g] [!n %d !tGoCheck%s !g]
+PKU_TIMER = Tijd: %02d:%s%.1f | gestart | Checkpoints: %d | GoCheck: %d
+PKU_PAUSE = | Tijd: Gestopt | Status: Pause | ^n zeg /unpause
+PKU_SPECTATOR = | Status: Spectator | ^n zeg /unspec
+PKU_SPECTATOR_START = | Tijd: gestopt | Status: Spectator | ^n zeg /unspec
+PKU_KILL_OFF = Het commando kill is momenteel gedeactiveerd.
+PKU_CHEAT_DETECTED = !n%s !tgedetecteerd - Tijd gestopt
+PKU_HELP = !tVoor alle commandos typ !n'/help' !tin Chat.
+PKU_PM_SEMI_OFF = \r1. Semiclip gedeactiveerdt\w
+PKU_PM_SEMI_ON = \r1. Semiclip geactiveerd\w
+PKU_PM_BHOP_OFF = \r2. Bhop gedeactiveerd\w
+PKU_PM_BHOP = \d2. Bhop\w  
+PKU_PM_BHOP_NOSLOW = \w2. Bhop - geen vertraging\w 
+PKU_PM_BHOP_AUTO = \w2. Bhop - Autospring\w  
+PKU_PM_SHOWTIMER_OFF = \d3. Laat timer zien\w
+PKU_PM_SHOWTIMER_ON = \w3. Laat timer zien\w
+PKU_PM_SCOUT_OFF = \r4. Scout gedeactiveerd\w    
+PKU_PM_SCOUT_ON = \w4. Scout\w    
+PKU_PM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Spelersmenu^n^n%s^n%s^n%s^n%s^n5. Usp^n6. Start^n7. Herstel^n^n0. Sluit   
+PKU_AM_CP_OFF = \r1. Checkpoints\w
+PKU_AM_CP_ON = \w1. Checkpoints\w
+PKU_AM_GODMODE_OFF = \r2. Godmode\w
+PKU_AM_GODMODE_ON = \w2. Godmode\w
+PKU_AM_AUTOJOIN_OFF = \r3. Autojoin\w
+PKU_AM_AUTOJOIN_ON = \w3. Autojoin\w
+PKU_AM_SCOUT_OFF = \r4. Scout\w
+PKU_AM_SCOUT_ON = \w4. Scout\w
+PKU_AM_GLOW_OFF = \r5. Adminglow\w
+PKU_AM_GLOW_ON = \w5. Adminglow\w     
+PKU_AM_SEMI_OFF = \r6. Semiclip\w 
+PKU_AM_SEMI_ON = \w6. Semiclip\w
+PKU_AM_BHOP = \r7. Bhop\w
+PKU_AM_BHOP_NOSLOW = \w7. Bhop - No Slowdown\w
+PKU_AM_BHOP_AUTO = \w7. Bhop - Autojump\w
+PKU_AM_TRANS_OFF = \r8. Transparantie\w
+PKU_AM_TRANS_ON = \w8. Transparantie\w
+PKU_AM_CHEATD_OFF = \r9. Cheatdetect\w
+PKU_AM_CHEATD_ON = \w9. Cheatdetect\w
+PKU_AM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Adminmenu^n^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n^n0. Sluit
+PKU_CP_ENABLED = !tCheckpoints zijn nu geactiveerd
+PKU_CP_INFO = !tTyp !n'/checkpoint' !tom een checkpoint te maken
+PKU_CP_GO_INFO = !tTyp !n'/gocheck' !tom naar je checkpoint geteleporteerd te worden
+PKU_CP_DISABLED = !tCheckpoints zijn nu gedeactiveerd
+PKU_GODMODE_ENABLED = !tGodmode is nu geactiveerd
+PKU_GODMODE_DISABLED = !tGodmode is nu gedeactiveerd
+PKU_AUTOJOIN_ENABLED = !tAutojoin is nu geactiveerd
+PKU_AUTOJOIN_DISABLED = !tAutojoin is nu gedeactiveerd
+PKU_SCOUT_ENABLED = !tScout is nu geactiveerd
+PKU_SCOUT_DISABLED = !tScout is is nu gedeactiveerd
+PKU_ADMINGLOW_ENABLED = !tAdminglow is nu geactiveerd
+PKU_ADMINGLOW_DISABLED = !tAdminglow is nu gedeactiveerd
+PKU_SEMICLIP_ENABLED = !tSemiclip is nu geactiveerd
+PKU_SEMICLIP_DISABLED = !tSemiclip is nu gedeactiveerd
+PKU_BHOP_NOSLOW_DOWN = !tBhop (No Slowdown) is nu geactiveerd
+PKU_BHOP_AUTOMATIC = !tBhop (Autojump) is nu geactiveerd
+PKU_BHOP_DISABLED = !tBhop is is nu gedeactiveerd
+PKU_TRANSPARENCY_ENABLED = !tSemiclip Transparentie is nu geactiveerd
+PKU_TRANSPARENCY_DISABLED = !tSemiclip Transparentie is nu gedeactiveerd
+PKU_CHEATD_ENABLED = !tCheatdetectie is nu geactiveerd
+PKU_CHEATD_DISABLED = !tCheatdetectie is nu gedeactiveerd
+PKU_TOP15_MOTD = <tr align=center bgcolor=#52697B><th width=5%%>#<th width=30%% align=left>Naam<th width=25%%>Time<th width=20%%>Checkpoints<th width=20%%>GoChecks
+PKU_TOP15_NPBT = !n%s !gheeft zijn tijd verbetert met!n %02d:%s%.4f  
+PKU_TOP15_FAIL = !n%s !gheeft zijn beste tijd niet gehaald met!n %02d:%s%.4f verschil. 
+PKU_NUB15_LEET = Proficiat !n%s !gis de nieuwe Leet in de Nub15
+PKU_NUB15_RANK = !n%s !gNieuwe rank in de Nub15 is !n[%i]
+PKU_PRO15_LEET = Proficiat !n%s !gis de nieuwe Leet in de Pro15
+PKU_PRO15_RANK = !n%s !gNieuwe rank in de Pro15 is !n[%i]
+PKU_NOCLIP_AT_ALL = Geef aan iedereen
+PKU_NOCLIP_TAKE_ALL = Haal weg van iedereen
+PKU_NOCLIP_AT_TARGET = geef aan jou
+PKU_NOCLIP_TAKE_TARGET = haal van jou weg
+PKU_IMOTD_HELP_TITEL = ProKreedz v2.4 Commandos
+PKU_IMOTD_HELP_MENU = <tr><td class=h1>* Toon spelers Menu:
+PKU_IMOTD_SCOUT = <tr><td class=h1>* Geef een speler een Scout:
+PKU_IMOTD_USP = <tr><td class=h1>* Geef een speler een Usp:
+PKU_IMOTD_TOP15 = <tr><td class=h1>* Toont de Tops:
+PKU_IMOTD_CHECKPOINT = <tr><td class=h1>* Maak een Checkpoint:
+PKU_IMOTD_GOCHECK = <tr><td class=h1>* Ga naar je laatste Checkpoint:
+PKU_IMOTD_STUCK = <tr><td class=h1>* Als Speler vast zit in de muur:
+PKU_IMOTD_START = <tr><td class=h1>* Herstel tijd, Checkpoints en Teleporteer speler naar de start:
+PKU_IMOTD_RESET = <tr><td class=h1>* Herstel tijd en checkpoints:
+PKU_IMOTD_PAUSE = <tr><td class=h1>* Tijd zal worden gestopt:
+PKU_IMOTD_SPEC = <tr><td class=h1>* Speler joins spec en tijd wordt gestopt:
+PKU_IMOTD_SHOWKEYS = <tr><td class=h1>* Bekijk spelers hun toetsen:
+PKU_IMOTD_WEAPONS = <tr><td class=h1>* Alle wapens:
+PKU_GRAB_TARGET =  !tJe pakte %s.
+PKU_GRAB_ALREADY = !tDie speler is al gepakt.
+PKU_PRIZE_HOOK = !tJe krijgt een beloning !n[Haak]: !t- !g[Gebruik]: !nbind 'toets' '+hook'
+PKU_HOOK_AT_ALL = !tAdmin %s geeft iedereen !n[Haak]: !t- !g[Gebruik]: !nbind 'toets' '+hook'
+PKU_HOOK_TAKE_ALL = !tAdmin %s neemt iedereen zijn haak af.
+PKU_HOOK_AT_TARGET = !tAdmin %s geeft je !n[Haak]: !t- !g[Gebruik]: !nbind 'toets' '+hook'
+PKU_HOOK_TAKE_TARGET = !tAdmin %s neemt je haak weg.
+PKU_JET_PRIZE_CG = !tBravo you beeindigde de map zonder !nCheckpoints !t !
+PKU_JET_PRIZE = !tJe krijgt een tweede beloning !n[Jetpack]: !t- !g[Gebruik]: !nbind 'toets' '+jet'
+PKU_JET_AT_ALL = !tAdmin %s geeft iedereen !n[Jetpack] !t- !g[Gebruik]: !nbind 'toets' '+jet'
+PKU_JET_TAKE_ALL = !tAdmin %s neemt iedereen zijn Jetpack weg.
+PKU_JET_AT_TARGET = !tAdmin %s geeft je !n[Jetpack] !t- !g[Gebruik]: !nbind 'toets' '+jet'
+PKU_JET_TAKE_TARGET = !tAdmin %s neemt je [Jetpack] weg.
+PKU_SET_START = Start positie is ingesteld.
+PKU_DEL_START = Start positie geschrapt.
+PKU_BE_ALIVE = Je moet leven om dit commando te gebruiken.
+PKU_BEAT_MAP_A = Beeindig de map voor een gratis haak.
+PKU_BEAT_MAP_B = Beeindig de map zonder Checkpoints voor een Jetpack.
+
+[bg]
+PKU_WEAPON_SPEED = Maksimalna skorost na tova orujie e %i
+PKU_CMD_RESET = !tVremeto i Seifovete sa resnati
+PKU_SCOUT_OFF = !t'!nScout!t' e deaktiviran...
+PKU_PRO_OFF = !tRankList '!nPro15!t' deaktiviran...
+PKU_SCOUT_HAS = !tVeche imash '!nScout!t'...
+PKU_USP_HAS = !tVeche imash '!nUsp!t'...
+PKU_PAUSE_OFF = !tPause e deaktiviran...
+PKU_PAUSE_USE = !tPurvo triabva da startirash timera za da izpolzvash tazi komanda...
+PKU_SPEC_OFF = !tSpectator v momenta e deaktiviran...
+PKU_CP_OFF = !tCheckpoints v momenta e deaktiviran...
+PKU_CP_FALL = !tNemojesh da pravish seif v vuzduha...
+PKU_CP_CREATE = !tPozicia seifana...
+PKU_CP_TO_MUCH = !tIzpolzvash tvurde mnogo Checkpoints...
+PKU_CP_NULL = !tPurvo triabva da napravish Checkpoint...
+PKU_CP_BUSY = !tNiakoi e tvurde blizo do tvoia Checkpoint...
+PKU_CP_SOMEONE = !tNiakoi e tvurde blizo do tvoia posleden Checkpoint
+PKU_NOCLIP_GIVE = !tAdmin %s %s '!nNoclip!t'
+PKU_NOCLIP_REMOVE = !tNapishi '!n/noclip!t' za da go premahnesh 
+PKU_GRAVITY_ALL = !tAdmin %s promeni tvoiata gravitacia na %d 
+PKU_GRAVITY_TARGET = !tAdmin %s promeni tvoiata gravitacia na %d 
+PKU_NOCLIP_ON = !tNemojesh da startirash Timer dokato imash Noclip
+PKU_START_AGAIN = !tZa da si v '!nPro15!t' ne triabva da izpolzvash '!nScout!t' 
+PKU_TIMER_STARTED = !tTimer Startiran
+PKU_FINISH = !n%s !tzavurshi kartata!n %02d:%s%.2f !izpolzval!g [!n %d !tCheckpoint%s !g] [!n %d !tGoCheck%s !g]
+PKU_TIMER = Vreme: %02d:%s%.1f | Started | Checkpoints: %d | GoCheck: %d
+PKU_PAUSE = | Time: Stopped | Status: Pauza | ^n napishi /unpause
+PKU_SPECTATOR = | Status: Spectator | ^n napishi /unspec
+PKU_SPECTATOR_START = | Time: Stopped | Status: Spectator | ^n napishi /unspec
+PKU_KILL_OFF = Komandata Kill e deaktivirana.
+PKU_CHEAT_DETECTED = !tZasechen!n %s !t- Time stopped
+PKU_HELP = !tZa da vsichki vidove komandi napishete!n '/help' !tin Chat.
+PKU_PM_SEMI_OFF = \r1. Semiclip Deaktivirant\w
+PKU_PM_SEMI_ON = \r1. Semiclip Aktiviran\w
+PKU_PM_BHOP_OFF = \r2. Bhop Deaktiviran\w
+PKU_PM_BHOP = \d2. Bhop\w  
+PKU_PM_BHOP_NOSLOW = \w2. Bhop - No Slowdown\w 
+PKU_PM_BHOP_AUTO = \w2. Bhop - Autojump\w  
+PKU_PM_SHOWTIMER_OFF = \d3. Show Timer\w
+PKU_PM_SHOWTIMER_ON = \w3. Show Timer\w
+PKU_PM_SCOUT_OFF = \r4. Scout Deaktiviran\w    
+PKU_PM_SCOUT_ON = \w4. Scout\w    
+PKU_PM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Playermenu^n^n%s^n%s^n%s^n%s^n5. Usp^n6. Start^n7. Reset^n^n0. close     
+PKU_AM_CP_OFF = \r1. Checkpoints\w
+PKU_AM_CP_ON = \w1. Checkpoints\w
+PKU_AM_GODMODE_OFF = \r2. Godmode\w
+PKU_AM_GODMODE_ON = \w2. Godmode\w
+PKU_AM_AUTOJOIN_OFF = \r3. Autojoin\w
+PKU_AM_AUTOJOIN_ON = \w3. Autojoin\w
+PKU_AM_SCOUT_OFF = \r4. Scout\w
+PKU_AM_SCOUT_ON = \w4. Scout\w
+PKU_AM_GLOW_OFF = \r5. Adminglow\w
+PKU_AM_GLOW_ON = \w5. Adminglow\w     
+PKU_AM_SEMI_OFF = \r6. Semiclip\w 
+PKU_AM_SEMI_ON = \w6. Semiclip\w
+PKU_AM_BHOP = \r7. Bhop\w
+PKU_AM_BHOP_NOSLOW = \w7. Bhop - No Slowdown\w
+PKU_AM_BHOP_AUTO = \w7. Bhop - Autojump\w
+PKU_AM_TRANS_OFF = \r8. Transparency\w
+PKU_AM_TRANS_ON = \w8. Transparency\w
+PKU_AM_CHEATD_OFF = \r9. Cheatdetect\w
+PKU_AM_CHEATD_ON = \w9. Cheatdetect\w
+PKU_AM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Adminmenu^n^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n^n0. close
+PKU_CP_ENABLED = !tCheckpoints are enabled now
+PKU_CP_INFO = !tType !n'/checkpoint' !tto create a Checkpoint
+PKU_CP_GO_INFO = !tType !n'/gocheck' !tto be teleported to your last Checkpoint
+PKU_CP_DISABLED = !tCheckpoints are disabled now
+PKU_GODMODE_ENABLED = !tGodmode is enabled now
+PKU_GODMODE_DISABLED = !tGodmode is disabled now
+PKU_AUTOJOIN_ENABLED = !tAutojoin is enabled now
+PKU_AUTOJOIN_DISABLED = !tAutojoin is disabled now
+PKU_SCOUT_ENABLED = !tScout is enabled now
+PKU_SCOUT_DISABLED = !tScout is disabled now
+PKU_ADMINGLOW_ENABLED = !tAdminglow e aktiviran sega
+PKU_ADMINGLOW_DISABLED = !tAdminglow e deaktiviran sega
+PKU_SEMICLIP_ENABLED = !tSemiclip aktiviran sega
+PKU_SEMICLIP_DISABLED = !tSemiclip deaktiviran sega
+PKU_BHOP_NOSLOW_DOWN = !tBhop (No Slowdown) e aktiviran sega
+PKU_BHOP_AUTOMATIC = !tBhop (Autojump) e aktiviran sega
+PKU_BHOP_DISABLED = !tBhop e deaktiviran sega
+PKU_TRANSPARENCY_ENABLED = !tSemiclip Transparency e aktiviran sega
+PKU_TRANSPARENCY_DISABLED = !tSemiclip Transparency e deaktiviran sega
+PKU_CHEATD_ENABLED = !tCheatdetection e aktiviran sega
+PKU_CHEATD_DISABLED = !tCheatdetection e deaktiviran sega
+PKU_TOP15_MOTD = <tr align=center bgcolor=#52697B><th width=5%%>#<th width=30%% align=left>Name<th width=25%%>Time<th width=20%%>Checkpoints<th width=20%%>GoChecks
+PKU_TOP15_NPBT = !n%s !gimproved his time!n %02d:%s%.4f  
+PKU_TOP15_FAIL = !n%s !gfail his best time by!n %02d:%s%.4f 
+PKU_NUB15_LEET = Pozdravlenia !n%s !ge noviat Leet v Nub15
+PKU_NUB15_RANK = !n%s !gNovia rank v Nub15 e !n[%i]
+PKU_PRO15_LEET = Pozdravlenia !n%s !ge novia Leet v Pro15
+PKU_PRO15_RANK = !n%s !gNoviat rank v Pro15 e !n[%i]
+PKU_NOCLIP_AT_ALL = daden na vsichki
+PKU_NOCLIP_TAKE_ALL = premahnat na vsichki
+PKU_NOCLIP_AT_TARGET = daden ti e
+PKU_NOCLIP_TAKE_TARGET = premahnat ti e
+PKU_IMOTD_HELP_TITEL = ProKreedz v2.4 Commands
+PKU_IMOTD_HELP_MENU = <tr><td class=h1>* Pokazva Player Menu:
+PKU_IMOTD_SCOUT = <tr><td class=h1>* Dava Scout:
+PKU_IMOTD_USP = <tr><td class=h1>* Dava Usp:
+PKU_IMOTD_TOP15 = <tr><td class=h1>* Pokazva Tops:
+PKU_IMOTD_CHECKPOINT = <tr><td class=h1>* Pravi Checkpoint:
+PKU_IMOTD_GOCHECK = <tr><td class=h1>* Otidi na poslednia Checkpoint:
+PKU_IMOTD_STUCK = <tr><td class=h1>* Ako igrach e zasednal v stenata:
+PKU_IMOTD_START = <tr><td class=h1>* Reset Time, Checkpoints i Telportira Igrach do Starta:
+PKU_IMOTD_RESET = <tr><td class=h1>* Reset Time i Checkpoints:
+PKU_IMOTD_PAUSE = <tr><td class=h1>* Time shte bude sprian:
+PKU_IMOTD_SPEC = <tr><td class=h1>* Player otide Spec i Vremeto e spriano:
+PKU_IMOTD_SHOWKEYS = <tr><td class=h1>* Pokazva Player Own Keys:
+PKU_IMOTD_WEAPONS = <tr><td class=h1>* Vsichki oruzhiya:
+PKU_GRAB_TARGET =  !tYou grabbed %s.
+PKU_GRAB_ALREADY = !tTozi Player veche e grabbed.
+PKU_PRIZE_HOOK = !tPoluchavash nagrada !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_AT_ALL = !tAdmin %s dava na vsichki !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_ALL = !tAdmin %s premahva Hook na vsichki.
+PKU_HOOK_AT_TARGET = !tAdmin %s ti dade !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_TARGET = !tAdmin %s premahna Hook ot teb.
+PKU_JET_PRIZE_CG = !tBravo zavurshi kartata bez !nCheckpoints!t !
+PKU_JET_PRIZE = !tPoluchavash vtora nagrada !n[Jetpack]: !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_AT_ALL = !tAdmin %s dava na vsichki !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_ALL = !tAdmin %s premahva Jetpack ot vsichki.
+PKU_JET_AT_TARGET = !tAdmin %s ti dava !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_TARGET = !tAdmin %s premahva Jetpack ot teb.
+PKU_SET_START = Startova pozicia zadadena.
+PKU_DEL_START = Startova pozicia iztrita.
+PKU_BE_ALIVE = Triabva da si jiv za da izpolzvash tazi komanda.
+PKU_BEAT_MAP_A = Zavurshi kartata za da poluchish Hook.
+PKU_BEAT_MAP_B = Zavurshi kartata bez Checkpoints za da poluchish JetPack.
+
+[es]
+PKU_WEAPON_SPEED = La velocidad máxima de esta arma es %i
+PKU_CMD_RESET = !tTiempo y checkpoints han sido reseteados
+PKU_SCOUT_OFF = !t'!nScout!t' Está actualmente desactivado...
+PKU_PRO_OFF = !tRankList '!nPro15!t' fué desactivado...
+PKU_SCOUT_HAS = !tTu ya tienes un '!nScout!t'...
+PKU_USP_HAS = !tTu ya tienes un '!nUsp!t'...
+PKU_PAUSE_OFF = !tPausa esta desactivada...
+PKU_PAUSE_USE = !tTienes que iniciar el temporizador antes de usar este comando...
+PKU_SPEC_OFF = !tEspectador está desactivado...
+PKU_CP_OFF = !tLos Checkpoints están desactivados...
+PKU_CP_FALL = !tNo puedes crear un Checkpoints en el aire...
+PKU_CP_CREATE = !tPosición guardada...
+PKU_CP_TO_MUCH = !tUsas demasiados Checkpoints...
+PKU_CP_NULL = !tPrimero crea un Checkpoints...
+PKU_CP_BUSY = !tAlguien está muy cerca de tu Checkpoint...
+PKU_CP_SOMEONE = !tAlguien está muy cerca de tu Checkpoint
+PKU_NOCLIP_GIVE = !tAdmin %s %s '!nNoclip!t'
+PKU_NOCLIP_REMOVE = !tType '!n/noclip!t' to remove Noclip 
+PKU_GRAVITY_ALL = !tAdmin %s Puso la gravedad en %d 
+PKU_GRAVITY_TARGET = !tAdmin %s Puso tú gravedad en %d 
+PKU_NOCLIP_ON = !tNo puedes iniciar un temporizador cuando tienes noclip
+PKU_START_AGAIN = !tPara llegar a '!nPro15!t' puedes usar un '!nScout!t' 
+PKU_TIMER_STARTED = !Temporizador iniciado
+PKU_FINISH = !n%s !tfinalizo el mapa en!n %02d:%s%.2f !tEl usó!g [!n %d !tCheckpoint%s !g] [!n %d !tGoCheck%s !g]
+PKU_TIMER = Tiempo: %02d:%s%.1f | Iniciado | Checkpoints: %d | GoCheck: %d
+PKU_PAUSE = | Tiempo: Detenido | Estado: Pausa | ^n say /unpause
+PKU_SPECTATOR = | Estado: Espectador | ^n say /unspec
+PKU_SPECTATOR_START = | Tiepo: Detenido | Estado: Espectador | ^n say /unspec
+PKU_KILL_OFF = El comando kill está desactivado.
+PKU_CHEAT_DETECTED = !tDetectad0!n %s !t- Tiempo detenido
+PKU_HELP = !tPara todos los comandos escribe!n '/help' !tin Chat.
+PKU_PM_SEMI_OFF = \r1. Semiclip Desactivado\w
+PKU_PM_SEMI_ON = \r1. Semiclip Activado\w
+PKU_PM_BHOP_OFF = \r2. Bhop Desactivado\w
+PKU_PM_BHOP = \d2. Bhop\w  
+PKU_PM_BHOP_NOSLOW = \w2. Bhop - Sin detenimiento\w 
+PKU_PM_BHOP_AUTO = \w2. Bhop - Salto automático\w  
+PKU_PM_SHOWTIMER_OFF = \d3. Enseñar temporizador\w
+PKU_PM_SHOWTIMER_ON = \w3. Enseñar temporizador\w
+PKU_PM_SCOUT_OFF = \r4. Scout Desactivado\w    
+PKU_PM_SCOUT_ON = \w4. Scout\w    
+PKU_PM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Playermenu^n^n%s^n%s^n%s^n%s^n5. Usp^n6. Start^n7. Reset^n^n0. close     
+PKU_AM_CP_OFF = \r1. Checkpoints\w
+PKU_AM_CP_ON = \w1. Checkpoints\w
+PKU_AM_GODMODE_OFF = \r2. Modo Dios\w
+PKU_AM_GODMODE_ON = \w2. Modo Dios\w
+PKU_AM_AUTOJOIN_OFF = \r3. Autoentrar\w
+PKU_AM_AUTOJOIN_ON = \w3. Autoentrar\w
+PKU_AM_SCOUT_OFF = \r4. Scout\w
+PKU_AM_SCOUT_ON = \w4. Scout\w
+PKU_AM_GLOW_OFF = \r5. Adminglow\w
+PKU_AM_GLOW_ON = \w5. Adminglow\w     
+PKU_AM_SEMI_OFF = \r6. Semiclip\w 
+PKU_AM_SEMI_ON = \w6. Semiclip\w
+PKU_AM_BHOP = \r7. Bhop\w
+PKU_AM_BHOP_NOSLOW = \w7. Bhop - Sin detenimiento\w
+PKU_AM_BHOP_AUTO = \w7. Bhop - Auto salto\w
+PKU_AM_TRANS_OFF = \r8. Transparencia\w
+PKU_AM_TRANS_ON = \w8. Transparencia\w
+PKU_AM_CHEATD_OFF = \r9. Detector de tramas\w
+PKU_AM_CHEATD_ON = \w9. Detector de trampa\w
+PKU_AM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Adminmenu^n^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n^n0. close
+PKU_CP_ENABLED = !tCheckpoints Está activados ahora
+PKU_CP_INFO = !tEscribe !n'/checkpoint' !tto creó un checkpoints
+PKU_CP_GO_INFO = !tEscribe !n'/gocheck' !tto para ser teletransportado a tu último checkpoints
+PKU_CP_DISABLED = !tCheckpoints Están desactivados ahora
+PKU_GODMODE_ENABLED = !tModo Dios está activado ahora
+PKU_GODMODE_DISABLED = !tModo Dios está desactivado ahora
+PKU_AUTOJOIN_ENABLED = !tAuto entrar está activado ahora
+PKU_AUTOJOIN_DISABLED = !tAuto entrar está desactivado ahora
+PKU_SCOUT_ENABLED = !tScout está activado ahora
+PKU_SCOUT_DISABLED = !tScout is está desactivado ahora
+PKU_ADMINGLOW_ENABLED = !tAdminglow está activado ahora
+PKU_ADMINGLOW_DISABLED = !tAdminglow está desactivado ahora
+PKU_SEMICLIP_ENABLED = !tSemiclip is está activado ahora
+PKU_SEMICLIP_DISABLED = !tSemiclip está desactivado ahora
+PKU_BHOP_NOSLOW_DOWN = !tBhop (Sin detenimiento) está activado ahora
+PKU_BHOP_AUTOMATIC = !tBhop (Auto Salto) is enabled now
+PKU_BHOP_DISABLED = !tBhop está desactivado ahora
+PKU_TRANSPARENCY_ENABLED = !tSemiclip Transparencia está activado ahora
+PKU_TRANSPARENCY_DISABLED = !tSemiclip Transparencia está desactivado ahora
+PKU_CHEATD_ENABLED = !tCheatdetection está activado ahora
+PKU_CHEATD_DISABLED = !tCheatdetection está desactivado ahora
+PKU_TOP15_MOTD = <tr align=center bgcolor=#52697B><th width=5%%>#<th width=30%% align=left>Name<th width=25%%>Time<th width=20%%>Checkpoints<th width=20%%>GoChecks
+PKU_TOP15_NPBT = !n%s !gMejoró su tiempo!n %02d:%s%.4f  
+PKU_TOP15_FAIL = !n%s !gfail Hizo su mejor tiempo en!n %02d:%s%.4f 
+PKU_NUB15_LEET = Felicidades !n%s !gEs el lider ahora en Nub15
+PKU_NUB15_RANK = !n%s !gNuevo rango en Nub15 is !n[%i]
+PKU_PRO15_LEET = Felicidades !n%s !gEs el nuevo lider en Pro15
+PKU_PRO15_RANK = !n%s !gNuevo rango en Pro15 is !n[%i]
+PKU_NOCLIP_AT_ALL = Darla a todos
+PKU_NOCLIP_TAKE_ALL = Tomar de todos
+PKU_NOCLIP_AT_TARGET = Te dió
+PKU_NOCLIP_TAKE_TARGET = Te quitó
+PKU_IMOTD_HELP_TITEL = ProKreedz v2.4 Commandos
+PKU_IMOTD_HELP_MENU = <tr><td class=h1>* Mostrar el menu de un jugador:
+PKU_IMOTD_SCOUT = <tr><td class=h1>* Darle a un jugador un Scout:
+PKU_IMOTD_USP = <tr><td class=h1>* Darle a un jugador un Usp:
+PKU_IMOTD_TOP15 = <tr><td class=h1>* Mostrar los Tops:
+PKU_IMOTD_CHECKPOINT = <tr><td class=h1>* Crear un Checkpoint:
+PKU_IMOTD_GOCHECK = <tr><td class=h1>* Ir al último Checkpoint:
+PKU_IMOTD_STUCK = <tr><td class=h1>* Si un jugador queda atrapado en la pared:
+PKU_IMOTD_START = <tr><td class=h1>* Resetear Timpo, Checkpoints y teleportar al jugador al inicio:
+PKU_IMOTD_RESET = <tr><td class=h1>* Resetear tiempo y Checkpoints:
+PKU_IMOTD_PAUSE = <tr><td class=h1>* El tiempo será detenidp:
+PKU_IMOTD_SPEC = <tr><td class=h1>* Jugador entró a Espectadores y el tiempo se detuvo:
+PKU_IMOTD_SHOWKEYS = <tr><td class=h1>* Enseña a un jugador sus propias llaves:
+PKU_IMOTD_WEAPONS = <tr><td class=h1>* Todas Las Armas:
+PKU_GRAB_TARGET =  !tAgarraste  %s.
+PKU_GRAB_ALREADY = !tEste jugador ya está agarrado.
+PKU_PRIZE_HOOK = !tReciviste un reconocimiento !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_AT_ALL = !tAdmin %s le dió a todos!n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_ALL = !tAdmin %s le quitó a todos el Hook.
+PKU_HOOK_AT_TARGET = !tAdmin %s te dió !n[Hook]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_TARGET = !tAdmin %s Te quitó el hook.
+PKU_JET_PRIZE_CG = !tBravo terminaste el mapa sin Chekpoints !nCheckpoints!t !
+PKU_JET_PRIZE = !tReciviste un segundo reconocimiento !n[Jetpack]: !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_AT_ALL = !tAdmin %s Le Dió a todos un !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_ALL = !tAdmin %s Le quitó a todos el jetpack.
+PKU_JET_AT_TARGET = !tAdmin %s Te dió un !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_TARGET = !tAdmin %s Te quitó el jetpack.
+PKU_SET_START = Se ha definido la posición de inicion.
+PKU_DEL_START = Se ha eliminado la posición de inicio.
+PKU_BE_ALIVE = Debes estar vivo para usar este comando.
+PKU_BEAT_MAP_A = Vence el map para conseguir un hook gratis.
+PKU_BEAT_MAP_B = Vence el mapa sin Checkpoints para conseguir un JetPack gratis.
+
+[fr]
+PKU_WEAPON_SPEED = La vitesse maximale de cette arme est de : %i
+PKU_CMD_RESET = !tLe temps et les checkpoints sont annulés
+PKU_SCOUT_OFF = !t'!nLe Scout!t' est actuellement non-actif...
+PKU_PRO_OFF = !tLa RankList '!nPro15!t' a ete desactivee...
+PKU_SCOUT_HAS = !tTu as deja un '!nScout!t'...
+PKU_USP_HAS = !tTu as deja un '!nUsp!t'...
+PKU_PAUSE_OFF = !tLa pause est actuellement desactivee...
+PKU_PAUSE_USE = !tTu dois d'abord demarrer le chrono pour utiliser cette commande...
+PKU_SPEC_OFF = !tLes spectateurs sont actuellement desactives...
+PKU_CP_OFF = !tLes Checkpoints sont actuellement desactives...
+PKU_CP_FALL = !tTu ne peux pas creer un checkpoint lorsque tu n'es pas sur le sol...
+PKU_CP_CREATE = !tPosition sauvegardee...
+PKU_CP_TO_MUCH = !tTu utilises trop de checkpoints...
+PKU_CP_NULL = !tTu dois d'abord creer un checkpoint...
+PKU_CP_BUSY = !tQuelqu'un est trop proche de ton dernier checkpoint...
+PKU_CP_SOMEONE = !tQuelqu'un est trop porche de ton avant-dernier checkpoint
+PKU_NOCLIP_GIVE = !tAdmin %s %s '!nNoclip!t'
+PKU_NOCLIP_REMOVE = !tTape '!n/noclip!t' pour enlever le noclip 
+PKU_GRAVITY_ALL = !tAdmin %s a mit la gravite a %d 
+PKU_GRAVITY_TARGET = !tAdmin %s a mit ta gravite a %d 
+PKU_NOCLIP_ON = !tTu ne peux pas commencer tant que tu aura ton noclip
+PKU_START_AGAIN = !tPour etre dans le '!nPro15!t' tu ne dois pas utiliser le '!nScout!t' 
+PKU_TIMER_STARTED = !tChrono en marche
+PKU_FINISH = !n%s !ta fini la map en!n %02d:%s%.2f !til a utilise!g [!n %d !tCheckpoint%s !g] [!n %d !tGoCheck%s !g]
+PKU_TIMER = Time: %02d:%s%.1f | Demarre | Checkpoints: %d | GoCheck: %d
+PKU_PAUSE = | Time: Arrete | Status: Pause | ^n ecris /unpause
+PKU_SPECTATOR = | Status: Spectateur | ^n ecris /unspec
+PKU_SPECTATOR_START = | Time: Arrete | Status: Spectateur | ^n ecris /unspec
+PKU_KILL_OFF = La commande "kill" est actuellement desactivee.
+PKU_CHEAT_DETECTED = !tDetecte!n %s !t- Chrono arrete
+PKU_HELP = !tPour connaitre la liste des commande, tape!n '/help' !tdans le Chat.
+PKU_PM_SEMI_OFF = \r1. Semiclip Non-actift\w
+PKU_PM_SEMI_ON = \r1. Semiclip Actif\w
+PKU_PM_BHOP_OFF = \r2. Bhop Non-actift\w
+PKU_PM_BHOP = \d2. Bhop\w  
+PKU_PM_BHOP_NOSLOW = \w2. Bhop - Sans ralentissements\w 
+PKU_PM_BHOP_AUTO = \w2. Bhop - Sauts automatiques\w  
+PKU_PM_SHOWTIMER_OFF = \d3. Montrer le chrono\w
+PKU_PM_SHOWTIMER_ON = \w3. Montrer le chrono\w
+PKU_PM_SCOUT_OFF = \r4. Scout Non-actif\w    
+PKU_PM_SCOUT_ON = \w4. Scout\w    
+PKU_PM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Playermenu^n^n%s^n%s^n%s^n%s^n5. Usp^n6. Demarrer^n7. Recommencer^n^n0. fermer     
+PKU_AM_CP_OFF = \r1. Checkpoints\w
+PKU_AM_CP_ON = \w1. Checkpoints\w
+PKU_AM_GODMODE_OFF = \r2. Godmode\w
+PKU_AM_GODMODE_ON = \w2. Godmode\w
+PKU_AM_AUTOJOIN_OFF = \r3. Autojoin\w
+PKU_AM_AUTOJOIN_ON = \w3. Autojoin\w
+PKU_AM_SCOUT_OFF = \r4. Scout\w
+PKU_AM_SCOUT_ON = \w4. Scout\w
+PKU_AM_GLOW_OFF = \r5. Couleur Admin\w
+PKU_AM_GLOW_ON = \w5. Couleur Admin\w     
+PKU_AM_SEMI_OFF = \r6. Semiclip\w 
+PKU_AM_SEMI_ON = \w6. Semiclip\w
+PKU_AM_BHOP = \r7. Bhop\w
+PKU_AM_BHOP_NOSLOW = \w7. Bhop - Sans ralentissements\w
+PKU_AM_BHOP_AUTO = \w7. Bhop - Sauts automatiques\w
+PKU_AM_TRANS_OFF = \r8. Transparence\w
+PKU_AM_TRANS_ON = \w8. Transparence\w
+PKU_AM_CHEATD_OFF = \r9. Detection de cheats\w
+PKU_AM_CHEATD_ON = \w9. Detection de cheats\w
+PKU_AM_MENU = ^n^n^n\yProKreedz Ultimativ v2.4 - Menu Admin^n^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n%s^n^n0. fermer
+PKU_CP_ENABLED = !tLes Checkpoints sont desormais actifs
+PKU_CP_INFO = !tEcris !n'/checkpoint' !tpour creer un Checkpoint
+PKU_CP_GO_INFO = !tEcris !n'/gocheck' !tpour etre teleporte a ton dernier Checkpoint
+PKU_CP_DISABLED = !tLes Checkpoints ne sont desormais plus actifs
+PKU_GODMODE_ENABLED = !tLe Godmode est desormais actif
+PKU_GODMODE_DISABLED = !tLe Godmode n'est desormais plus actif
+PKU_AUTOJOIN_ENABLED = !tL'Autojoin est desormais actif
+PKU_AUTOJOIN_DISABLED = !tL'Autojoin n'est desormais plus actif
+PKU_SCOUT_ENABLED = !tLe Scout est desormais actif
+PKU_SCOUT_DISABLED = !tLe Scout n'est desormais plus actif
+PKU_ADMINGLOW_ENABLED = !tLa couleur pour admins est desormais active
+PKU_ADMINGLOW_DISABLED = !tLa couleur pour admins n'est desormais plus active
+PKU_SEMICLIP_ENABLED = !tSemiclip est desormais actif
+PKU_SEMICLIP_DISABLED = !tSemiclip n'est desormais plus actif
+PKU_BHOP_NOSLOW_DOWN = !tLe Bhop (Sans ralentissements) est desormais actif
+PKU_BHOP_AUTOMATIC = !tLe Bhop (Sauts automatiques) est desormais actif
+PKU_BHOP_DISABLED = !tLe Bhop n'est desormais plus actif
+PKU_TRANSPARENCY_ENABLED = !tLe Semiclip Transparent est desormais actif
+PKU_TRANSPARENCY_DISABLED = !tLe Semiclip Transparent n'est desormais plus actif
+PKU_CHEATD_ENABLED = !tLa detection de cheats est desormais active
+PKU_CHEATD_DISABLED = !tLa detection de cheats n'est desormais plus active
+PKU_TOP15_MOTD = <tr align=center bgcolor=#52697B><th width=5%%>#<th width=30%% align=left>Nom<th width=25%%>Temps<th width=20%%>Checkpoints<th width=20%%>GoChecks
+PKU_TOP15_NPBT = !n%s !ga ameliorer son temps!n %02d:%s%.4f  
+PKU_TOP15_FAIL = !n%s !gfail his best time by!n %02d:%s%.4f 
+PKU_NUB15_LEET = Felicitations !n%s !gest le nouveau Leet dans le Nub15
+PKU_NUB15_RANK = !n%s !gNouveau rang dans le Nub15 est !n[%i]
+PKU_PRO15_LEET = Felicitations !n%s !gest le nouveau Leet dans le Pro15
+PKU_PRO15_RANK = !n%s !gNouveau rang dans le Pro15 est !n[%i]
+PKU_NOCLIP_AT_ALL = donne a tout le monde
+PKU_NOCLIP_TAKE_ALL = retire a tout le monde
+PKU_NOCLIP_AT_TARGET = te donne
+PKU_NOCLIP_TAKE_TARGET = te retire
+PKU_IMOTD_HELP_TITEL = Commandes de ProKreedz v2.4
+PKU_IMOTD_HELP_MENU = <tr><td class=h1>* Afficher le menu du joueur:
+PKU_IMOTD_SCOUT = <tr><td class=h1>* Donner un Scout a un joueur:
+PKU_IMOTD_USP = <tr><td class=h1>* Donner un Usp a un joueur:
+PKU_IMOTD_TOP15 = <tr><td class=h1>* Afficher les Tops:
+PKU_IMOTD_CHECKPOINT = <tr><td class=h1>* Creer un Checkpoint:
+PKU_IMOTD_GOCHECK = <tr><td class=h1>* Aller au dernier Checkpoint:
+PKU_IMOTD_STUCK = <tr><td class=h1>* Si un joueur est colle dans le mur:
+PKU_IMOTD_START = <tr><td class=h1>* Redemarrer le chrono, les Checkpoints et teleporter le joueur au depart:
+PKU_IMOTD_RESET = <tr><td class=h1>* Redemarrer le chrono et les checkpoints:
+PKU_IMOTD_PAUSE = <tr><td class=h1>* Le chrono va etre arrete:
+PKU_IMOTD_SPEC = <tr><td class=h1>* Transferer le joueur en spectateur et arreter son chrono:
+PKU_IMOTD_SHOWKEYS = <tr><td class=h1>* Voir les touches du joueur:
+PKU_IMOTD_WEAPONS = <tr><td class=h1>* Toutes les armes:
+PKU_GRAB_TARGET =  !tTu as saisi %s.
+PKU_GRAB_ALREADY = !tCe joueur est deja saisi.
+PKU_PRIZE_HOOK = !tTu as recu une recompense !n[Grapin]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_AT_ALL = !tAdmin %s a donne a tout le monde un !n[Grapin]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_ALL = !tAdmin %s t'a retire ton Grapin.
+PKU_HOOK_AT_TARGET = !tAdmin %s t'a donne un !n[Grapin]: !t- !g[Usage]: !nbind 'key' '+hook'
+PKU_HOOK_TAKE_TARGET = !tAdmin %s t'a retire ton Grapin.
+PKU_JET_PRIZE_CG = !tBravo, tu as fini la map sans !nCheckpoints!t !
+PKU_JET_PRIZE = !tTu recois une seconde recompense !n[Jetpack]: !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_AT_ALL = !tAdmin %s a donne a tout le monde un !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_ALL = !tAdmin %s a retire le Jetpack de tout le monde.
+PKU_JET_AT_TARGET = !tAdmin %s t'a donne un !n[Jetpack] !t- !g[Usage]: !nbind 'key' '+jet'
+PKU_JET_TAKE_TARGET = !tAdmin %s t'a retire ton Jetpack.
+PKU_SET_START = Position de debut mise en place.
+PKU_DEL_START = Position de debut supprimee.
+PKU_BE_ALIVE = Tu dois etre vivant pour utiliser cette commande.
+PKU_BEAT_MAP_A = Finis la map pour gagner un Grapin gratuit.
+PKU_BEAT_MAP_B = Finis la map sans Checkpoints pour gagner un JetPack gratuit.
