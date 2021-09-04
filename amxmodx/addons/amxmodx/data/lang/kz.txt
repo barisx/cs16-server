@@ -1,0 +1,532 @@
+[en]
+NULL = 
+MAIN_MENU_MULLANG = \r多语言切换(Multi-language)
+MAIN_MENU_CONSOLE = \wType \y%s\w in console
+MAIN_MENU_BACK = Back
+MAIN_MENU_NEXT = Next
+MAIN_MENU_EXIT = Exit
+MAIN_MENU_START = Start
+MAIN_MENU_CHALL = \rChallenge Menu
+MAIN_MENU_FPS = Invisible Menu
+MAIN_MENU_PAUSE = Pause/Unpause Timer
+MAIN_MENU_KZTOP = KZ TOP15
+MAIN_MENU_SRVLIST = \yServer List
+MAIN_MENU_WEAPONS = Get Weapons(WPN TOP)
+MAIN_MENU_CLRTIMER = Reset Timer
+MAIN_MENU_VOTE = Rock The Vote
+MAIN_MENU_SPEC = Spectator/CT
+MAIN_MENU_TMPSTART = Set Temp StartPoint
+MAIN_MENU_CLRTMPSTART = Clear Temp StartPoint
+MAIN_MENU_TIMERMENU = Timer Menu
+MAIN_MENU_NOCLIP = Noclip Mode
+MAIN_MENU_ADMINMENU = Admin Menu
+DISABLE_FUNCTION = This Function is disabled.
+HAVE_TO_CHOICE = plz choose.
+CANT_PAUSE_SPEC = Spectator can't useing pause.
+CANT_PAUSE_BHOP = Can't pause on bhop block;
+CANT_PAUSE_NO_START = Timer is not started.
+PAUSE_TIMER_TTL = Pause - Press F1-2 to unpause
+UNPAUSE_TIMER_TTL = Unpause
+CHECKPOINT = CP
+GOCHECK = GC
+NOCHECKPOINT = NC
+NC = NC
+WEAPON = Weapon
+CP_GC = CP
+CP = CP
+PRO = Pro
+NUB = Nub
+SPEC_HUD_TIMER = Real Time:%02d:%02d Theory Time:%02d:%02d
+SPEC_HUD_CHL_OPPO = ^nOpponent %s
+SPEC_HUD_PAUSING =  *Pausing*
+DONE_COUNT = Finished Times: %d
+MSG_MODE_TTL = Messages will now appear on %s
+CANT_CHG_TEAM_CHLING = You can't change team in challenging.
+CANT_CHG_TEAM_NOCLIP = Can't change team when noclip.
+TRY_TO_BUG = ^3%s^4 try to using BUG(Don't change to spectator on bhop block). Timer was reset.
+TOP_NORMAL = Normal
+TOP_MOD_CHG = ^3Weapon changed, now is^4 %s ^3Top
+TOP_WPN_TTL = ^3切换到对应武器，然后按计时器。排行榜排序武器难度优先于时间。
+WEAPON_SPEED = This weapon's speed is:
+CANTGET_WPN_SEPC = Spectator can't use other weapons.
+CANTGET_WPN_DISABLE = Other wepons is disabled.
+CANTGET_WPN_CHLING = You can't use scout in challenging.
+CANTGET_WPN_ONTIME = ^3Can't get weapons while timer started, say^4 /reset^3 to reset timer.
+USE_OTHER_WPN_TTL = ^3使用特殊武器，完成进入武器排行榜。
+CANT_BACKSTART_HOOKING = Can't back to StartPoint while using hook
+CANT_BACKSTART_PAUSING = Can't back to StartPoint while pausing
+CANT_BACKSTART_NOSET = No start point.
+BACK_START = Back to start point
+NOT_ACCESS = You have no access to that command
+TEMP_START_SAVE = ^3Temp StartPoint was save. Type^1 /cs^3 to clean.
+TEMP_START_CLEAR = ^3Temp StartPoint was clean.
+GET_HOOK_TTL = ^3Hook has been enabled, bind any key '+hook' to use it.
+CANT_HOOK_PAUSING = You can't use hook while paused.
+USE_HOOK_TTL = Used hook
+ADMIN = Admin
+PLAERY = Player
+RESET_TIMER_BY = ^3%s^4 reset timer.
+CANT_CP_CHLING = 在应战抉择时不允许存点
+CANT_CP_GROUP = Your challenging team can't make a checkpoint
+CANT_CP_SPEC = Spectator can't make a checkpoint
+CANT_CP_AIR = You can't make a checkpoint in air
+CANT_CP_PAUSING = You can't make a checkpoint in pause
+CANT_CP_BHOP = You can't make a checkpoint on bhop block
+CP_COUNT = Checkpoint #%d
+CP_NOSTART = Checkpoint - Timer not started
+CANT_GC_SPEC = Spectator can't Gocheck
+CANT_GC_HOOK = You can't Gocheck while using hook
+CANT_GC_NO_CP = You don't have Checkpoint
+CANT_GC_GROUP = 您所在挑战组不允许读点
+CANT_GC_PAUSING = You can't make a gocheck in pause
+GC_COUNT = GoCheck #%d
+GC_NOSTART = Gocheck - Timer not started
+CANT_GC_LACK = You don't have enough checkpoints
+CANT_NC_CHLING = You can't use Noclip while challenging
+CANT_NC_SPEC = Spectator can't use Noclip
+NOCLIP = Noclip
+GOD_MOD = GodMode
+ON = On
+OFF = Off
+CANT_GOD_CHLING = Challenging can't use GodMode
+CANT_GOD_SPEC = Spectator can't use GodMode
+LT_MSG_SHOW_TTL = ^3屏幕左上角已显示本图相关纪录信息。
+LT_MSG_SHOW_TTL2 = ^4%s ^3当前处于计时状态，^4 5 ^3秒后自动关闭左上角信息
+START_SAVE_FAIL = ^3起点位置保存失败。
+START_SAVE_SUCC = ^3起点位置已保存。
+LT_MSG_INFO = hide in 15 secs
+
+CHL_LEAVL_SRV = Challenger leaved the server
+INVIS_MENU_TITLE = Invisible Menu
+NO_WATER = There is no water on the map.
+INVIS_MODEL_PLAYER = Player Invisible
+INVIS_MODEL_WATER = Water Invisible
+INVIS_MENU_MIC = Mute Mic Menu^n^n
+MAIN_MENU = Main Menu
+
+SHOWTIMER_MENU_CLOSE = Timer show is disabled
+SHOWTIMER_MENU = Timer Menu
+SHOWTIMER_MENU_ROUND = Round Timer %s
+SHOWTIMER_MENU_HUD = HUD Timer %s
+SHOWTIMER_MENU_DISABLE = No Timer
+
+TOP_MENU_TITLE = \rServer Top15
+TOP_MENU_WPN = WPN TOP
+TOP_MENU_NC = Pro TOP
+TOP_MENU_CP = Nub TOP
+TOP_MENU_CHECT = Cheater List
+TOP_MENU_PS = Personal Statistic
+TOP_MENU_PLR = Players Rankings
+TOP_MENU_MAP = Maps Statistic
+TOP_MENU_NEW = Last 15 Entries
+TOP_MENU_READ = About Plugin
+
+ROUTE_MENU_TITLE = \rChoose %s Top Route
+
+CANT_START_NOCLIP = Spectator can't use timer.
+CANT_START_ADMIN = ^3管理员临时关闭了计时功能，无法计时，请等待。
+CANT_START_HOOK = You can't start timer while using hook
+CANT_START_WAIT_TOP = 等待你的TOP纪录处理完毕
+CANT_START_SRVKEY = ^3服务器未设置TOP键名，请联系管理员
+CANT_START_WAIT = Please wait 3 seconds
+CANT_START_WAIT_HOOK = ^3Wait 3 seconds after using hook
+FAST_RECORD = Best Time:
+
+TIMER_START = Timer Started
+TIME_LEFT = Time Remaining:
+FINISH_CLIMB = ^3恭喜到达终点奖励光波请按 = 号使用。
+CANT_END_PAUSING = 暂停中，不能使用终点计时器
+CANT_END_NOSTART = Your timer not started yet :)..
+
+FINISH_CLIMB_WORD = 恭喜到达终点^n祝您新年快乐
+ROUTE = Route
+FINISH_TIME_CP = finished in
+FINISH_TIME_NC = finished in
+
+UPD_RECORD = You improved your %L record by
+UPD_WPN_RECORD = You improved your WPN record by
+UPD_WPN_RECORD_EX = ^3You improved your^1 [%s]^4 record
+UPD_WPN_LOW = ^3当前武器^1 [%s] ^3比原纪录武器^1 [%s] ^3优先级低。
+UPD_RECORD_SLOWLY = ^3You failed your best %L time by
+UPD_RECORD_RANK = ^3%s^4 is now on %s Top place^3 %d^1 %s
+UPD_RECORD_RANK_XUNFOP = sb   武器   rank   路线
+PS_RECORD_TTL = ^3Personal Statistic only available for forum user or steam user.
+
+RESET_TIMER_ROUTE = Route cross, reset timer
+
+CHL_MENU_TITLE = Challenge Menu
+CHL_MENU_1V1 = Start 1v1 challenging[Beta]         \dsay /1v1^n    \rGive up in challenging will count to\y escape
+CHL_MENU_ALL = Challenge to all[Not yet]    \dsay /1vn^n
+CHL_MENU_GETDATA = Reading data, please try it later
+CHL_YOUR_LVL = Your level:
+CHL_OPPO_LVL = Opponent's level:
+CHL_MEM_EX1 = Won:%d Lost:%d Draw:%d
+CHL_MEM_EX2 = Invtite:%d Accepted:%d Rejected:%d
+CHL_MEM_EX3 = Escape:%d Point:%d Total challenging:%d
+
+CHL_MENU_NON_EX1 = You are not a registered forum user
+CHL_MENU_NON_EX2 = Don't have point, join us quickly!
+CHL_MENU_NON_EX3 = Visit www.27015.com
+CHL_MENU_NON_EX4 = Top navigate\y->\r通道
+CHL_MENU_BLOCK = Block challenging
+CHL_MENU_TOP = Challenge rankings
+CHL_MENU_TOP_LOG = Challenge detail
+
+ZZ_MENU_TITLE = \yPeriod CUP Sponsor 09/19-10/19^n\wContact QQ:195936617 to donated CUP\y
+ZZ_MENU_DTL = Check Sponsor List
+
+CHL_WHOWIN = ^3%s^1 战胜了 ^3%s
+CHL_ESCAPE = escape
+CHL_GIVEUP = give up
+CHL_END = ^3%s^1 %L，^3%s^1 won the challenging
+CHL_INCRS = Get point
+CHL_DISCRS = Minus point
+CHL_CANT_GIVEUP = ^1Give up too early, we haven't started yet!
+
+GIVEUP_MENU_TITLE = \rSure to give up?\w
+GIVEUP_MENU_NOT = No give up
+GIVEUP_MENU_YEP = Give up \rEscape time +1
+
+ACCEPT = Accept
+REJECT = Reject
+CHL_SET_BLOCK = ^1%L来自其他玩家的挑战。
+
+CANT_CHL_CUP = ^1CUP比赛即将开始，无法使用挑战功能。
+CANT_CHL_DELAY = ^1请在%d秒后再尝试使用挑战功能。
+CANT_CHL_NOTIME = ^1当前地图最快完成纪录低于^4 90 ^1秒，无法使用挑战功能。
+CANT_CHL_NOSTART = ^1当前地图没有默认起始点，任意玩家触发开始计时器后，默认起始点生效。
+CANT_CHL_CHOOSE = ^1您接受到邀战，请先做出选择。
+CANT_CHL_START = ^1您正在比赛中，请先完成比赛，或认输。认输请输入 ^3/gg^1，认输将统计为逃，慎！
+CANT_CHL_PLRLACK = ^1玩家人数不足^3 2 ^1人，无法发起挑战。
+
+SCORE = Point
+CHL_1V1_MENU_TITLE = \r1v1 Challenge Menu
+CHL_1V1_MENU_GETDATE = Reading
+CHL_1V1_MENU_INVITE = Inviting
+CHL_1V1_MENU_ACCEPT = Invited
+CHL_1V1_MENU_CHLING = Challenging
+CHL_1V1_MENU_ENABLE = Challengeable
+CHL_1V1_MENU_NOSCORE = No Point
+CHL_1V1_MENU_BLOCK = Blocked
+
+CANT_CHL_OPPO_START = ^1This player is in challenging.
+CANT_CHL_OPPO_ACCEPT = ^1This player was invited by other player.
+CANT_CHL_OPPO_INVITE = ^1This player is inviting other player.
+CANT_CHL_OPPO_GETDATA = ^1This player's point is reading.
+CANT_CHL_OPPO_BLOCK = ^1This player block all challenging.
+CANT_CHL_OPPO_TOOLOW = ^1该玩家等级过低且当前地图时间太短，无法挑战。
+
+CHL_CONFIRM_TITLE = \yAttention!\wChallenge to \r%s\w[\yBeta\w]
+CHL_CONFIRM_NOT = No^n^n    \d挑战不影响进入TOP榜^n    \r先到终点为胜^n
+CHL_CONFIRM_WARNING = ^n^n\rWarning:^n    \yOpponent not forum user^n    Challenge won't get point
+CHL_CONFIRM_YEP = \rConfirm\w
+
+CHL_INVITED = ^1已邀战，等待对方回应。
+CHL_INVITE_TTL = ^3%s^1 向 ^3%s^1 发起了挑战
+CHL_PAUSED = Paused,
+CHL_CHOOSE = 您接受到约战，%s请做出选择
+CHL_CHOOSE_XUNFOP = %s是“已暂停，”
+
+ALLOW_SET = \w(\ySetable\w)
+NOT_ALLOW_SET = (Not Setable)
+REJECT_AND_BLOCK = \wReject and block
+CHL_ACP_MENU_TITLE = \w%s \rinvite you to 1v1 challenge\w[\yBeta\w]
+CHL_ACP_MENU_WARNING = ^n\rWarning:\yOpponent not forum user, challenging won't get any point
+CHL_ACP_MENU_ACCEPT = \rAccept \wRemaining time:
+CHL_ACP_MENU_EX1 = \dChallenge won't effect to enter TOP
+CHL_ACP_MENU_EX2 = \rFirst is win
+CHL_ACP_MEM_EX = Escape:%d Point:%d
+CHL_ACP_MENU_POINT = \wCheckPoint:
+CHL_ACP_MENU_WPN = \wWeapon:
+CHL_ACP_MENU_ENDTIME = Finish button
+CHL_ACP_MENU_CUSTEM = \rMark point %d
+CHL_ACP_MENU_SETEND = \wEnd-area:
+CHL_ACP_MENU_VOICE = \wVoice:
+CHL_ACP_MENU_ROUTE = \wRoute:
+CHL_ACP_MENU_OUTTIME = ^1Timeout, you can't choose anymore!
+CHL_ACP_MENU_AGAIN = \rPlease check again
+CHL_START = Challenging started!
+
+CHL_REJECT_TTL = ^3%s^1 rejected your challenge!
+CHL_REJECT_TTL2 = ^3%s^1 选择了韬光养晦
+CHL_CHOOSE_TIMEOUT = ^3%s^1 didn't make any choice over^4 %d^1 secs
+CHL_ENDPOINT_ENDTIME = 已设置结束点为终点计时器
+CHL_ENDPOINT_CUSTEM = 已设置结束位置为标记点 %d
+
+CHL_ACCEPT_TTL = ^3%s^1 accepted ^3%s^1's^3 %s %L^1 challenging
+CHL_ACCEPT_TTL_XUNFOP = 第三个武器名字，第四个存读裸跳
+CHL_START_COUNT_DOWN = Challenge will starting in 10 secs!
+CHL_ROUTE_REMIND = Attention: You go the wrong way, challenging route is %s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[cn]
+MAIN_MENU_MULLANG = \rMulti-language(多语言切换)
+MAIN_MENU_CONSOLE = \w控制台输入 %s
+MAIN_MENU_BACK = 上一页
+MAIN_MENU_NEXT = 下一页
+MAIN_MENU_EXIT = 退出^n    say /zz查看CUP奖金赞助名单
+MAIN_MENU_START = 返回起点
+MAIN_MENU_CHALL = \r挑战菜单
+MAIN_MENU_FPS = 优化FPS菜单
+MAIN_MENU_PAUSE = 暂停/恢复计时
+MAIN_MENU_KZTOP = 服务器TOP15
+MAIN_MENU_SRVLIST = \y服务器列表
+MAIN_MENU_WEAPONS = 挑战武器排行榜
+MAIN_MENU_CLRTIMER = 计时清零
+MAIN_MENU_VOTE = 投票换图
+MAIN_MENU_SPEC = 观察者/复活
+MAIN_MENU_TMPSTART = 保存临时起点
+MAIN_MENU_CLRTMPSTART = 清除临时起点
+MAIN_MENU_TIMERMENU = 计时菜单
+MAIN_MENU_NOCLIP = 鬼魂模式
+MAIN_MENU_ADMINMENU = 管理员菜单
+DISABLE_FUNCTION = 该功能已被禁用
+HAVE_TO_CHOICE = 请先做出选择
+CANT_PAUSE_SPEC = 观察者不能暂停
+CANT_PAUSE_BHOP = 禁止在连跳点暂停
+CANT_PAUSE_NO_START = 您还没开始计时无法暂停
+PAUSE_TIMER_TTL = 暂停计时 - 按 F1-2 恢复计时
+UNPAUSE_TIMER_TTL = 恢复计时
+CHECKPOINT = 存点
+GOCHECK = 读点
+NOCHECKPOINT = 裸跳
+WEAPON = 武器
+CP_GC = 存读
+PRO = 裸跳
+NUB = 存点
+SPEC_HUD_TIMER = 时间:%02d:%02d 理论时间:%02d:%02d
+SPEC_HUD_CHL_OPPO = ^n挑战对手 %s
+SPEC_HUD_PAUSING =  *暂停中*
+DONE_COUNT = 完成%d次
+MSG_MODE_TTL = 提示信息使用%s
+CANT_CHG_TEAM_CHLING = 挑战中，无法切换阵营
+CANT_CHG_TEAM_NOCLIP = 无法在鬼魂模式下切换阵营
+TRY_TO_BUG = ^3%s^4 正在尝试BUG刷Top（不要在连点上切换观察者），清除计时和存点。
+TOP_NORMAL = 裸存
+TOP_MOD_CHG = ^3武器变更，已调整为^4 %s ^3排行榜
+TOP_WPN_TTL = ^3切换到对应武器，然后按计时器。排行榜排序武器难度优先于时间。
+WEAPON_SPEED = 武器速度：
+CANTGET_WPN_SEPC = 观察者不能使用其它武器
+CANTGET_WPN_DISABLE = 其它武器已被禁用
+CANTGET_WPN_CHLING = 挑战中，无法使用轻狙
+CANTGET_WPN_ONTIME = ^3计时中不允许使用其它武器, 按Y输入^4 /reset ^3清除计时
+USE_OTHER_WPN_TTL = ^3使用特殊武器，完成进入武器排行榜。
+CANT_BACKSTART_HOOKING = 使用光波禁止返回起点
+CANT_BACKSTART_PAUSING = 暂停中不能返回起点
+CANT_BACKSTART_NOSET = 未设置起点
+BACK_START = 回到起点
+NOT_ACCESS = 您没有权限使用此功能
+TEMP_START_SAVE = ^3临时起点位置已保存。输入^1 /cs ^3清除。
+TEMP_START_CLEAR = ^3临时起点位置已清除。
+GET_HOOK_TTL = ^3光波已开启请按=号使用。
+CANT_HOOK_PAUSING = 暂停中不能使用光波
+USE_HOOK_TTL = 使用光波
+ADMIN = 管理员
+PLAERY = 玩家
+RESET_TIMER_BY = ^3%s^4 清除计时和存点。
+CANT_CP_CHLING = 在应战抉择时不允许存点
+CANT_CP_GROUP = 您所在挑战组不允许存点
+CANT_CP_SPEC = 观察者不能存点
+CANT_CP_AIR = 空中禁止存点
+CANT_CP_PAUSING = 暂停中禁止存点
+CANT_CP_BHOP = 禁止在连跳点存点
+CP_COUNT = 存点 %d
+CP_NOSTART = 存点 未开始计时
+CANT_GC_SPEC = 观察者不能读点
+CANT_GC_HOOK = 使用光波禁止读点
+CANT_GC_NO_CP = 您没有存点
+CANT_GC_GROUP = 您所在挑战组不允许读点
+CANT_GC_PAUSING = 暂停中不能读点
+GC_COUNT = 读点 %d
+GC_NOSTART = 读点 未开始计时
+CANT_GC_LACK = 您的存点不够用
+CANT_NC_CHLING = 挑战中，无法使用鬼魂模式
+CANT_NC_SPEC = 观察者不能使用鬼魂模式
+NOCLIP = 鬼魂模式
+GOD_MOD = 上帝模式
+ON = 开
+OFF = 关
+CANT_GOD_CHLING = 挑战中，不允许使用上帝模式
+CANT_GOD_SPEC = 观察者不能使用上帝模式
+LT_MSG_SHOW_TTL = ^3屏幕左上角已显示本图相关纪录信息。
+LT_MSG_SHOW_TTL2 = ^4%s ^3当前处于计时状态，^4 5 ^3秒后自动关闭左上角信息
+START_SAVE_FAIL = ^3起点位置保存失败。
+START_SAVE_SUCC = ^3起点位置已保存。
+LT_MSG_INFO = 15秒后自动关闭
+
+CHL_LEAVL_SRV = 挑战发起者离开了服务器
+INVIS_MENU_TITLE = 屏蔽菜单
+NO_WATER = 当前地图没有水纹理
+INVIS_MODEL_PLAYER = 屏蔽人物模型
+INVIS_MODEL_WATER = 屏蔽水纹理
+INVIS_MENU_MIC = 屏蔽麦克风菜单^n^n
+MAIN_MENU = 主菜单
+
+SHOWTIMER_MENU_CLOSE = 计时菜单已关闭
+SHOWTIMER_MENU = 计时菜单
+SHOWTIMER_MENU_ROUND = 回合时间显示 %s
+SHOWTIMER_MENU_HUD = HUD显示 %s
+SHOWTIMER_MENU_DISABLE = 不显示计时
+
+TOP_MENU_TITLE = \r服务器排行榜Top15
+TOP_MENU_WPN = 武器排行榜
+TOP_MENU_NC = 裸跳排行榜
+TOP_MENU_CP = 存点排行榜
+TOP_MENU_CHECT = 作弊清理名单
+TOP_MENU_PS = 个人统计
+TOP_MENU_PLR = 玩家统计
+TOP_MENU_MAP = 地图统计
+TOP_MENU_NEW = 最新完成
+TOP_MENU_READ = 插件说明
+
+ROUTE_MENU_TITLE = \r选择%s排行榜线路
+
+CANT_START_NOCLIP = 鬼魂模式无法使用计时器。
+CANT_START_ADMIN = ^3管理员临时关闭了计时功能，无法计时，请等待。
+CANT_START_HOOK = 使用光波中禁止开始计时
+CANT_START_WAIT_TOP = 等待你的TOP纪录处理完毕
+CANT_START_SRVKEY = ^3服务器未设置TOP键名，请联系管理员
+CANT_START_WAIT = 请等待3秒
+CANT_START_WAIT_HOOK = ^3使用光波后请等待3秒
+FAST_RECORD = 最快纪录：
+
+TIMER_START = 计时开始
+TIME_LEFT = 剩余时间：
+FINISH_CLIMB = ^3恭喜到达终点奖励光波请按 = 号使用。
+CANT_END_PAUSING = 暂停中，不能使用终点计时器
+CANT_END_NOSTART = 您还没按起点计时器 :)..
+
+FINISH_CLIMB_WORD = 恭喜到达终点^n祝您新年快乐
+ROUTE = 线路
+FINISH_TIME_CP = 存点完成时间
+FINISH_TIME_NC = 裸跳完成时间
+
+UPD_RECORD = 刷新原%L纪录
+UPD_WPN_RECORD = 刷新原武器纪录
+UPD_WPN_RECORD_EX = ^3刷新原武器^1 [%s] ^4纪录
+UPD_WPN_LOW = ^3当前武器^1 [%s] ^3比原纪录武器^1 [%s] ^3优先级低。
+UPD_RECORD_SLOWLY = ^3比原%L纪录慢
+UPD_RECORD_RANK = ^3%s ^4现在进入%s排行榜第^3 %d ^4位。^1%s
+UPD_RECORD_RANK_XUNFOP = sb   武器   rank   路线
+PS_RECORD_TTL = ^3个人统计只对论坛注册会员和正版开放。
+
+RESET_TIMER_ROUTE = 路线发生交错，已清除计时
+
+CHL_MENU_TITLE = 挑战菜单
+CHL_MENU_1V1 = 发起1v1挑战[测试]         \dsay /1v1^n    \r中途GG计分至\y逃跑 \r不用按开始
+CHL_MENU_ALL = 发起全体宣战[未开放]    \dsay /1vn^n
+CHL_MENU_GETDATA = 数据读取中，请稍后再试
+CHL_YOUR_LVL = 您的天梯阶段：
+CHL_OPPO_LVL = 对方的天梯阶段：
+CHL_MEM_EX1 = 胜:%d 负:%d 平:%d
+CHL_MEM_EX2 = 邀请:%d 接受:%d 怂:%d
+CHL_MEM_EX3 = 逃跑:%d 积分:%d 总比赛:%d
+
+CHL_MENU_NON_EX1 = 您还没有注册论坛用户
+CHL_MENU_NON_EX2 = 无法使用积分，赶紧加入吧
+CHL_MENU_NON_EX3 = 登录www.27015.com
+CHL_MENU_NON_EX4 = 顶部导航\y->\r通道
+CHL_MENU_BLOCK = 屏蔽挑战
+CHL_MENU_TOP = 挑战排行榜
+CHL_MENU_TOP_LOG = 撕逼详细记录
+
+ZZ_MENU_TITLE = \y本期1v1赞助名单 09/19-10/19^n\w赞助1v1比赛奖金请联系QQ:195936617\y
+ZZ_MENU_DTL = 查看赞助明细
+
+CHL_WHOWIN = ^3%s^1 战胜了 ^3%s
+CHL_ESCAPE = 逃跑
+CHL_GIVEUP = 认输
+CHL_END = ^3%s^1 %L，^3%s^1 获得了胜利
+CHL_INCRS = 获得积分
+CHL_DISCRS = 扣除积分
+CHL_CANT_GIVEUP = ^1放弃得太早了吧？还没开始呢。
+
+GIVEUP_MENU_TITLE = \r确定放弃？\w
+GIVEUP_MENU_NOT = 不放弃
+GIVEUP_MENU_YEP = 放弃 \r逃跑次数+1
+
+ACCEPT = 接受
+REJECT = 拒绝
+CHL_SET_BLOCK = ^1%L来自其他玩家的挑战。
+
+CANT_CHL_CUP = ^1CUP比赛即将开始，无法使用挑战功能。
+CANT_CHL_DELAY = ^1请在%d秒后再尝试使用挑战功能。
+CANT_CHL_NOTIME = ^1当前地图最快完成纪录低于^4 90 ^1秒，无法使用挑战功能。
+CANT_CHL_NOSTART = ^1当前地图没有默认起始点，任意玩家触发开始计时器后，默认起始点生效。
+CANT_CHL_CHOOSE = ^1您接受到邀战，请先做出选择。
+CANT_CHL_START = ^1您正在比赛中，请先完成比赛，或认输。认输请输入 ^3/gg^1，认输将统计为逃，慎！
+CANT_CHL_PLRLACK = ^1玩家人数不足^3 2 ^1人，无法发起挑战。
+SCORE = 积分
+CHL_1V1_MENU_TITLE = \r1v1挑战菜单
+CHL_1V1_MENU_GETDATE = 取数据
+CHL_1V1_MENU_INVITE = 邀战中
+CHL_1V1_MENU_ACCEPT = 受邀中
+CHL_1V1_MENU_CHLING = 挑战中
+CHL_1V1_MENU_ENABLE = 可挑战
+CHL_1V1_MENU_NOSCORE = 无积分
+CHL_1V1_MENU_BLOCK = 已屏蔽
+
+CANT_CHL_OPPO_START = ^1该玩家正在比赛中。
+CANT_CHL_OPPO_ACCEPT = ^1该玩家正在被其他玩家邀战中。
+CANT_CHL_OPPO_INVITE = ^1该玩家正在对其他玩家邀战中。
+CANT_CHL_OPPO_GETDATA = ^1该玩家的积分正在读取中。
+CANT_CHL_OPPO_BLOCK = ^1该玩家拒绝来自其他玩家的挑战。
+CANT_CHL_OPPO_TOOLOW = ^1该玩家等级过低且当前地图时间太短，无法挑战。
+
+CHL_CONFIRM_TITLE = \y注意！\w向 \r%s \w发起挑战\w[\y测试阶段\w]
+CHL_CONFIRM_NOT = 否^n^n    \d挑战不影响进入TOP榜^n    \r先到终点为胜^n
+CHL_CONFIRM_WARNING = ^n^n\r警告：^n    \y对手不是论坛用户^n    挑战无法获得积分
+CHL_CONFIRM_YEP = \r确认\w
+
+CHL_INVITED = ^1已邀战，等待对方回应。
+CHL_INVITE_TTL = ^3%s^1 向 ^3%s^1 发起了挑战
+CHL_PAUSED = 已暂停，
+CHL_CHOOSE = 您接受到约战，%s请做出选择
+
+ALLOW_SET = \w(\y可设置\w)
+NOT_ALLOW_SET = (不可设置)
+REJECT_AND_BLOCK = \w拒绝并屏蔽
+CHL_ACP_MENU_TITLE = \w%s \r向您发起1v1挑战\w[\y测试阶段\w]
+CHL_ACP_MENU_WARNING = ^n\r警告：\y对手不是论坛用户，挑战无法获得积分
+CHL_ACP_MENU_ACCEPT = \r接受 \w剩余时间：
+CHL_ACP_MENU_EX1 = \d挑战不影响进入TOP榜
+CHL_ACP_MENU_EX2 = \r先到终点为胜
+CHL_ACP_MEM_EX = 逃跑:%d 总积分:%d
+CHL_ACP_MENU_POINT = \w是否存点：
+CHL_ACP_MENU_WPN = \w武器选择：
+CHL_ACP_MENU_ENDTIME = 终点计时器
+CHL_ACP_MENU_CUSTEM = \r标记点%d
+CHL_ACP_MENU_SETEND = \w设置终点：
+CHL_ACP_MENU_VOICE = \w报时声音：
+CHL_ACP_MENU_ROUTE = \w线路选择：
+CHL_ACP_MENU_OUTTIME = ^1已超时，您不能再选择了！
+CHL_ACP_MENU_AGAIN = \r请再次确认
+CHL_START = 比赛开始
+
+CHL_REJECT_TTL = ^3%s^1 拒绝您发起的挑战！
+CHL_REJECT_TTL2 = ^3%s ^1怂了
+CHL_CHOOSE_TIMEOUT = ^3%s^1 超过 ^4%d ^1秒未做出选择
+CHL_ENDPOINT_ENDTIME = 已设置结束点为终点计时器
+CHL_ENDPOINT_CUSTEM = 已设置结束位置为标记点 %d
+
+CHL_ACCEPT_TTL = ^3%s^1 接受了 ^3%s ^1的^3%s%L^1挑战
+CHL_START_COUNT_DOWN = 比赛将在 10 秒后开始！^n不用按起点计时器
+CHL_ROUTE_REMIND = 注意：线路为 %s，走错返回起点
