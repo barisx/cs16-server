@@ -1,11 +1,26 @@
 FROM bitnami/minideb:buster
 
 RUN apt-get update -qq \
-  && apt-get install -y --no-install-recommends \
-  lib32gcc1 \
-  wget \
-  ca-certificates \
-  && rm -rf /var/lib/apt/lists/*
+    && apt-get install -y --no-install-recommends \
+    lib32gcc1 \
+    libgcc1 \
+    libstdc++6 \
+    lib32stdc++6 \
+    wget \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/* \
+    && export LD_LIBRARY_PATH="/usr/local/lib64/:$LD_LIBRARY_PATH"
+
+ARG SERVER_IP=0.0.0.0
+ARG MAXPLAYERS=32
+ARG SV_LAN=0
+ARG MAP=fy_iceworld
+
+ENV SERVER_IP=${SERVER_IP}
+ENV MAXPLAYERS=${MAXPLAYERS}
+ENV SV_LAN=${SV_LAN}
+ENV MAP=${MAP}
+
 
 RUN useradd -m steam
 WORKDIR /home/steam
@@ -53,7 +68,11 @@ COPY --chown=steam:steam *.txt cstrike/
 # Install aim maps
 COPY --chown=steam:steam AimMapCs1.6/cstrike cstrike/
 
+WORKDIR /home/steam/cs16
+
 EXPOSE 27015/tcp
 EXPOSE 27015/udp
 
-CMD ./hlds_run  -game cstrike -strictportbind -autoupdate -ip 0.0.0.0 +sv_lan 0 +map aim_map -maxplayers 32 +log on +mp_logecho 1
+
+
+CMD ./hlds_run  -game cstrike -strictportbind -autoupdate -ip $SERVER_IP +sv_lan $SV_LAN +map $MAP -maxplayers $MAXPLAYERS +log on +mp_logecho 1
