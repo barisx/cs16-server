@@ -1,0 +1,6 @@
+gg_skirmish_sun
+map by Blackcock 03.2022
+Players: 21vs21
+Max wpoly: 250
+Size: Small
+For FUN GunGame

@@ -1,0 +1,4 @@
+gg_place_lab by Blackcock
+map created 03/2021
+for FUN GunGame 45.89.67.219:27038
+max wpoly = 400

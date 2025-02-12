@@ -1,0 +1,7 @@
+gg_twixosito map by Blackcock
+
+10/2024
+for FUN GunGame 45.89.67.219:27038
+
+size:small
+w_poly: 450
